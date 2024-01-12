@@ -24,7 +24,7 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/onboarding/
-    - assets/images/
+    
     
   fonts:
    - family: Rubik
