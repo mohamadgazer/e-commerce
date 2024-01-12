@@ -1,0 +1,48 @@
+name: installment
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  flutter_native_splash: ^2.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/onboarding/
+  fonts:
+   - family: Rubik
+     fonts:
+       - asset: assets/fonts/Rubik/Rubik-Black.ttf
+       - asset: assets/fonts/Rubik/Rubik-BlackItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-Bold.ttf
+       - asset: assets/fonts/Rubik/Rubik-BoldItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
+       - asset: assets/fonts/Rubik/Rubik-ExtraBoldItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-Italic.ttf
+       - asset: assets/fonts/Rubik/Rubik-Light.ttf
+       - asset: assets/fonts/Rubik/Rubik-LightItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-Medium.ttf
+       - asset: assets/fonts/Rubik/Rubik-MediumItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+       - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
+       - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
+
+    
+
+flutter_intl:
+  enabled: true
