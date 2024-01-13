@@ -43,6 +43,13 @@ flutter:
        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
        - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
        - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
+       - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
+   - family: AvenirLTStd
+     fonts:
+       - asset: assets/fonts/avenir_ff/AvenirLTStd-Black.otf
+       - asset: assets/fonts/avenir_ff/AvenirLTStd-Book.otf
+       - asset: assets/fonts/avenir_ff/AvenirLTStd-Roman.otf
+
 
     
 
