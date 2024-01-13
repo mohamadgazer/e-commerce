@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/app_images_manger.dart';
+import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/generated/l10n.dart';
 
 class OnBoardingBody extends StatelessWidget {
@@ -21,28 +24,51 @@ class OnBoardingBody extends StatelessWidget {
         ),
         child: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.all(34.0),
+            padding: EdgeInsets.symmetric(horizontal: 34.w, vertical: 25.h),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text(S.of(context).welcom),
-                const SizedBox(height: 16),
-                Text(S.of(context).remotelyio),
-                const SizedBox(height: 16),
-                Text(S.of(context).we_serve_you),
-                const SizedBox(height: 45),
+                Text(
+                  S.of(context).welcom,
+                  style: AppTextStyleManger.s12BlackGreyDeeper2,
+                ),
+                SizedBox(height: 15.h),
+                Text(
+                  S.of(context).remotelyio,
+                  style: AppTextStyleManger.s30Blackwhite,
+                ),
+                SizedBox(height: 15.h),
+                Text(
+                  S.of(context).we_serve_you,
+                  style: AppTextStyleManger.s16BookGreyLighter,
+                ),
+                SizedBox(height: 30.w),
                 Center(
                   child: Column(
                     children: [
                       ElevatedButton(
+                        style: ButtonStyle(
+                          padding: MaterialStatePropertyAll(
+                              EdgeInsets.symmetric(
+                                  horizontal: screenSize.width / 4,
+                                  vertical: 20.h)),
+                          backgroundColor:
+                              MaterialStatePropertyAll(AppColorManger.primary),
+                        ),
                         onPressed: () {},
-                        child: Text(S.of(context).browse_Shop),
+                        child: Text(
+                          S.of(context).browse_Shop,
+                          style: AppTextStyleManger.s16BookBlack,
+                        ),
                       ),
-                      const SizedBox(height: 20),
+                      SizedBox(height: 10.h),
                       TextButton(
                         onPressed: () {},
-                        child: Text(S.of(context).log_In),
+                        child: Text(
+                          S.of(context).log_In,
+                          style: AppTextStyleManger.s16WhiteRoman,
+                        ),
                       ),
                     ],
                   ),

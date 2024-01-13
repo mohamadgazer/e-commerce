@@ -1,10 +1,41 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:installment/core/app_font.dart';
+import 'package:installment/core/theming/app_color.dart';
 
 class AppTextStyleManger {
-  static TextStyle size15FontWidgtsimiBold = TextStyle(
-    fontSize: 15.sp,
-    fontFamily: "Rubik",
-    // fontWeight: FontWeight.w400,
+  //black
+  static TextStyle s12BlackGreyDeeper2 = TextStyle(
+    fontSize: 12.sp,
+    color: AppColorManger.greyDeeper2,
+    fontFamily: AppFont.black,
+    fontWeight: FontWeight.w900,
+  );
+  static TextStyle s30Blackwhite = TextStyle(
+    fontSize: 30.sp,
+    color: AppColorManger.white,
+    fontFamily: AppFont.black,
+    fontWeight: FontWeight.w900,
+  );
+
+  //book
+  static TextStyle s16BookGreyLighter = TextStyle(
+    fontSize: 16.sp,
+    color: AppColorManger.greyLighter,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
+  static TextStyle s16BookBlack = TextStyle(
+    fontSize: 16.sp,
+    color: AppColorManger.black,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
+  //roman
+  static TextStyle s16WhiteRoman = TextStyle(
+    fontSize: 16.sp,
+    color: AppColorManger.white,
+    fontFamily: AppFont.roman,
+    fontWeight: FontWeight.normal,
   );
 }
