@@ -702,10 +702,10 @@ class S {
     );
   }
 
-  /// `We serve you with the best gadgets for your home workspace`
+  /// `We serve you with the best gadgets for your home workspace `
   String get we_serve_you {
     return Intl.message(
-      'We serve you with the best gadgets for your home workspace',
+      'We serve you with the best gadgets for your home workspace ',
       name: 'we_serve_you',
       desc: '',
       args: [],
