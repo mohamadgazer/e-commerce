@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "add_date": MessageLookupByLibrary.simpleMessage("تاريخ الإضافة"),
         "add_debtor": MessageLookupByLibrary.simpleMessage("إضافة مدين"),
         "address": MessageLookupByLibrary.simpleMessage("العنوان"),
+        "browse_Shop": MessageLookupByLibrary.simpleMessage("تصفح المتجر"),
         "cant_be_Empty":
             MessageLookupByLibrary.simpleMessage("لا يجب ان يكون الحقل فارغاً"),
         "cant_be_larger_than":
@@ -100,6 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "قم بإنشاء خطة\nالدراسة الخاصة بك"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+        "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
         "reset": MessageLookupByLibrary.simpleMessage("تمت"),
         "reset_password":
             MessageLookupByLibrary.simpleMessage("إعاده ضبط كلمة المرور"),
@@ -119,6 +121,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "verify_Phone":
             MessageLookupByLibrary.simpleMessage("التحقق من الهاتف"),
         "verify_and_Create_Account":
-            MessageLookupByLibrary.simpleMessage("تحقق وانشيء الحساب")
+            MessageLookupByLibrary.simpleMessage("تحقق وانشيء الحساب"),
+        "we_serve_you": MessageLookupByLibrary.simpleMessage(
+            "نحن نقدم لك أفضل الأدوات لمساحة العمل المنزلية الخاصة بك"),
+        "welcom": MessageLookupByLibrary.simpleMessage("مرحباً")
       };
 }

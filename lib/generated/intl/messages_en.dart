@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "add_date": MessageLookupByLibrary.simpleMessage("Date added"),
         "add_debtor": MessageLookupByLibrary.simpleMessage("Add debtor"),
         "address": MessageLookupByLibrary.simpleMessage("address"),
+        "browse_Shop": MessageLookupByLibrary.simpleMessage("Browse Shop"),
         "cant_be_Empty":
             MessageLookupByLibrary.simpleMessage("can\'t be Empty"),
         "cant_be_larger_than":
@@ -99,6 +100,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Create your own\nstudy plan"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("phone number"),
+        "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
         "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "reset_password":
             MessageLookupByLibrary.simpleMessage("Reset Password"),
@@ -119,6 +121,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("التحقق من الاميل"),
         "verify_Phone": MessageLookupByLibrary.simpleMessage("Verify Phone"),
         "verify_and_Create_Account":
-            MessageLookupByLibrary.simpleMessage("Verify and Create Account")
+            MessageLookupByLibrary.simpleMessage("Verify and Create Account"),
+        "we_serve_you": MessageLookupByLibrary.simpleMessage(
+            "We serve you with the best gadgets for your\nhome workspace"),
+        "welcom": MessageLookupByLibrary.simpleMessage("WELCOME")
       };
 }

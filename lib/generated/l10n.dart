@@ -671,6 +671,46 @@ class S {
       args: [],
     );
   }
+
+  /// `WELCOME`
+  String get welcom {
+    return Intl.message(
+      'WELCOME',
+      name: 'welcom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remotely.io`
+  String get remotelyio {
+    return Intl.message(
+      'Remotely.io',
+      name: 'remotelyio',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Browse Shop`
+  String get browse_Shop {
+    return Intl.message(
+      'Browse Shop',
+      name: 'browse_Shop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We serve you with the best gadgets for your\nhome workspace`
+  String get we_serve_you {
+    return Intl.message(
+      'We serve you with the best gadgets for your\nhome workspace',
+      name: 'we_serve_you',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

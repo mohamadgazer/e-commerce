@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
+import 'package:installment/generated/l10n.dart';
 
 class OnBoardingBody extends StatelessWidget {
   const OnBoardingBody({
@@ -18,9 +19,36 @@ class OnBoardingBody extends StatelessWidget {
             image: AssetImage(AppImageManger.onboarding_image),
           ),
         ),
-        child: const SafeArea(
-          child: Column(
-            children: [],
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(34.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text(S.of(context).welcom),
+                const SizedBox(height: 16),
+                Text(S.of(context).remotelyio),
+                const SizedBox(height: 16),
+                Text(S.of(context).we_serve_you),
+                const SizedBox(height: 45),
+                Center(
+                  child: Column(
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text(S.of(context).browse_Shop),
+                      ),
+                      const SizedBox(height: 20),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(S.of(context).log_In),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ));
   }

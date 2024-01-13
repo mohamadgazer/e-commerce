@@ -62,7 +62,11 @@
     "add":"add",
     "esayCollectmony":"Ease of collecting money",
     "get_notifications_of_collection_dates":"Get notifications of collection dates",
-    "smooth_customer_data_entry_and_search":"Smooth customer data entry and search"
+    "smooth_customer_data_entry_and_search":"Smooth customer data entry and search",
+    "welcom":"WELCOME",
+    "remotelyio":"Remotely.io",
+    "browse_Shop":"Browse Shop",
+    "we_serve_you":"We serve you with the best gadgets for your\nhome workspace"
 
 
 }
