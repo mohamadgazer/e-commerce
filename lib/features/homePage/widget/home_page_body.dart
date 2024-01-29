@@ -15,6 +15,7 @@ class HomePageBody extends StatelessWidget {
           horizontal: PaddingHelper.allAppw, vertical: PaddingHelper.allApph),
       child: const Column(
         children: [
+          Spacer(),
           HiText(),
         ],
       ),
