@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/app_images_manger.dart';
 import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/generated/l10n.dart';
@@ -24,8 +25,14 @@ class HomePageBody extends StatelessWidget {
             S.of(context).welcome_Back,
             style: AppTextStyleManger.s28BlackBlack,
           ),
-           HomeLoginButton(text: S.of(context).login_with_google,
-           icon: Icons,),
+          HomeLoginButton(
+            text: S.of(context).login_with_google,
+            icon: AppImageManger.googleIcon,
+          ),
+          HomeLoginButton(
+            text: S.of(context).login_with_facebook,
+            icon: AppImageManger.facebookIcon,
+          ),
         ],
       ),
     );
@@ -34,11 +41,11 @@ class HomePageBody extends StatelessWidget {
 
 class HomeLoginButton extends StatelessWidget {
   final String text;
-  final IconData? icon;
+  final String icon;
   const HomeLoginButton({
     super.key,
     required this.text,
-    this.icon,
+    required this.icon,
   });
 
   @override
@@ -46,7 +53,7 @@ class HomeLoginButton extends StatelessWidget {
     return Container(
       child: ListTile(
         title: Text(text),
-        trailing:,
+        leading: Image.asset(icon),
       ),
     );
   }
