@@ -71,6 +71,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "get_notifications_of_collection_dates":
             MessageLookupByLibrary.simpleMessage(
                 "Get notifications of collection dates"),
+        "hI_FELLA": MessageLookupByLibrary.simpleMessage("HI FELLA"),
         "have_an_account":
             MessageLookupByLibrary.simpleMessage("Already have an account？"),
         "hi": MessageLookupByLibrary.simpleMessage("hi rhe"),

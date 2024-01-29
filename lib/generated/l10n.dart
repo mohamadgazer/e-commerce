@@ -711,6 +711,16 @@ class S {
       args: [],
     );
   }
+
+  /// `HI FELLA`
+  String get hI_FELLA {
+    return Intl.message(
+      'HI FELLA',
+      name: 'hI_FELLA',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

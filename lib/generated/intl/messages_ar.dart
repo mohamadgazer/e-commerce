@@ -72,6 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "get_notifications_of_collection_dates":
             MessageLookupByLibrary.simpleMessage(
                 "ضمان الحصول على إشعارات\nبمواعيد تحصيل الاقساط"),
+        "hI_FELLA": MessageLookupByLibrary.simpleMessage("مرحباً بك"),
         "have_an_account":
             MessageLookupByLibrary.simpleMessage(" تمتلك حساباً بالفعل؟"),
         "hi": MessageLookupByLibrary.simpleMessage("هلا"),
