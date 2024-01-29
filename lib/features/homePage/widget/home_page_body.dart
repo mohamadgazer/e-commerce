@@ -24,7 +24,8 @@ class HomePageBody extends StatelessWidget {
             S.of(context).welcome_Back,
             style: AppTextStyleManger.s28BlackBlack,
           ),
-          const HomeLoginButton(),
+           HomeLoginButton(text: S.of(context).login_with_google,
+           icon: Icons,),
         ],
       ),
     );
@@ -45,7 +46,7 @@ class HomeLoginButton extends StatelessWidget {
     return Container(
       child: ListTile(
         title: Text(text),
-        trailing: Icon(icon),
+        trailing:,
       ),
     );
   }
