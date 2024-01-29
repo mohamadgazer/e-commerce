@@ -12,7 +12,7 @@ class HomePageBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.symmetric(
-          horizontal: PaddingHelper.allApp, vertical: PaddingHelper.allApp),
+          horizontal: PaddingHelper.allAppw, vertical: PaddingHelper.allApph),
       child: const Column(
         children: [
           HiText(),
