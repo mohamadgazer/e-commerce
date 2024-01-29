@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/padding_helper.dart';
 import 'package:installment/generated/l10n.dart';
 
 class HomePageBody extends StatelessWidget {
@@ -8,10 +9,14 @@ class HomePageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    return Center(
-      child: Text(S.of(context).save_data),
-
+    return Padding(
+      padding: EdgeInsets.symmetric(
+          horizontal: PaddingHelper.allApp, vertical: PaddingHelper.allApp),
+      child: Column(
+        children: [
+          Text(S.of(context).save_data),
+        ],
+      ),
     );
   }
 }

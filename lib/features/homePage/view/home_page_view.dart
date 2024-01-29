@@ -10,13 +10,14 @@ class HomePageView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.settings))
-        ],
-      ),
-      body: const HomePageBody(),
+    return const Scaffold(
+      // appBar: AppBar(
+
+      //   actions: [
+      //     IconButton(onPressed: () {}, icon: const Icon(Icons.settings))
+      //   ],
+      // ),
+      body: HomePageBody(),
     );
   }
 }

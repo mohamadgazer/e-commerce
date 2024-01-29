@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
       minTextAdapt: true,
       child: MaterialApp(
         //theme
-        theme: themeData,
+        // theme: themeData,
         //local
         debugShowCheckedModeBanner: false,
         localizationsDelegates: localizationsDelegates,

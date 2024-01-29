@@ -67,7 +67,7 @@ class OnBoardingBody extends StatelessWidget {
                       SizedBox(height: 10.h),
                       TextButton(
                         onPressed: () {
-                          context.pushNamed(HomePageView.id);
+                          context.pushReplacementNamed(HomePageView.id);
                         },
                         child: Text(
                           S.of(context).log_In,
