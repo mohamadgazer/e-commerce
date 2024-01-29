@@ -5,6 +5,7 @@ import 'package:installment/generated/l10n.dart';
 
 import 'hi_text.dart';
 import 'home_login_button_ui.dart';
+import 'or_text.dart';
 
 class HomePageBody extends StatelessWidget {
   const HomePageBody({
@@ -25,7 +26,7 @@ class HomePageBody extends StatelessWidget {
               style: AppTextStyleManger.s28BlackBlack),
           SizedBox(height: PaddingHelper.sbH60),
           const HomeLoginButtonUi(),
-           Text(S.of(context).or,style: ,)
+          const OrText()
         ],
       ),
     );
