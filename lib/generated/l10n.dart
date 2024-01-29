@@ -731,6 +731,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Login with Google`
+  String get login_with_google {
+    return Intl.message(
+      'Login with Google',
+      name: 'login_with_google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with FaceBook`
+  String get login_with_facebook {
+    return Intl.message(
+      'Login with FaceBook',
+      name: 'login_with_facebook',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

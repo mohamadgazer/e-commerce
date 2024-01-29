@@ -78,6 +78,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "hi": MessageLookupByLibrary.simpleMessage("هلا"),
         "home_page": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
         "log_In": MessageLookupByLibrary.simpleMessage("سجل الدخول"),
+        "login_with_facebook":
+            MessageLookupByLibrary.simpleMessage("تسجيل الدخول عبر فيسبوك"),
+        "login_with_google":
+            MessageLookupByLibrary.simpleMessage("تسجيل الدخول عبر جوجل"),
         "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
         "national_id": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
         "not_valid_National_id":

@@ -77,6 +77,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "hi": MessageLookupByLibrary.simpleMessage("hi rhe"),
         "home_page": MessageLookupByLibrary.simpleMessage("Home Page"),
         "log_In": MessageLookupByLibrary.simpleMessage("Log In"),
+        "login_with_facebook":
+            MessageLookupByLibrary.simpleMessage("Login with FaceBook"),
+        "login_with_google":
+            MessageLookupByLibrary.simpleMessage("Login with Google"),
         "logout": MessageLookupByLibrary.simpleMessage("log out"),
         "national_id": MessageLookupByLibrary.simpleMessage("national id"),
         "not_valid_National_id":

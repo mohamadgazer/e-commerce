@@ -24,7 +24,23 @@ class HomePageBody extends StatelessWidget {
             S.of(context).welcome_Back,
             style: AppTextStyleManger.s28BlackBlack,
           ),
+          const HomeLoginButton(),
         ],
+      ),
+    );
+  }
+}
+
+class HomeLoginButton extends StatelessWidget {
+  const HomeLoginButton({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: const ListTile(
+        title: Text(),
       ),
     );
   }

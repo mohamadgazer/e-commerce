@@ -68,7 +68,9 @@
     "browse_Shop":"Browse Shop",
     "we_serve_you":"We serve you with the best gadgets for your home workspace ",
     "hI_FELLA":"HI FELLA",
-    "welcome_Back":"Welcome Back"
+    "welcome_Back":"Welcome Back",
+    "login_with_google":"Login with Google",
+    "login_with_facebook":"Login with FaceBook"
 
 
 }
