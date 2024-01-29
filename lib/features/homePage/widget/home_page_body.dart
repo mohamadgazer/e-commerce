@@ -25,6 +25,7 @@ class HomePageBody extends StatelessWidget {
               style: AppTextStyleManger.s28BlackBlack),
           SizedBox(height: PaddingHelper.sbH60),
           const HomeLoginButtonUi(),
+          const Text("")
         ],
       ),
     );

@@ -70,7 +70,8 @@
     "hI_FELLA":"HI FELLA",
     "welcome_Back":"Welcome Back",
     "login_with_google":"Login with Google",
-    "login_with_facebook":"Login with FaceBook"
+    "login_with_facebook":"Login with FaceBook",
+    "or":"OR"
 
 
 }

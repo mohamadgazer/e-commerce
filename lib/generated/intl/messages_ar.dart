@@ -104,6 +104,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تعلم سريع وسهل"),
         "onboadring_title3": MessageLookupByLibrary.simpleMessage(
             "قم بإنشاء خطة\nالدراسة الخاصة بك"),
+        "or": MessageLookupByLibrary.simpleMessage("او عبر"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
