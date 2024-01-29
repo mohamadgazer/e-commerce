@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/generated/l10n.dart';
+
+import 'hi_text.dart';
 
 class HomePageBody extends StatelessWidget {
   const HomePageBody({
@@ -12,9 +13,9 @@ class HomePageBody extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(
           horizontal: PaddingHelper.allApp, vertical: PaddingHelper.allApp),
-      child: Column(
+      child: const Column(
         children: [
-          Text(S.of(context).save_data),
+          HiText(),
         ],
       ),
     );

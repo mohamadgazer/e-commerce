@@ -25,6 +25,12 @@ class AppTextStyleManger {
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
+  static TextStyle s16BookGreyDeeperr = TextStyle(
+    fontSize: 16.sp,
+    color: AppColorManger.greyDeeper,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
   static TextStyle s16BookBlack = TextStyle(
     fontSize: 16.sp,
     color: AppColorManger.black,
