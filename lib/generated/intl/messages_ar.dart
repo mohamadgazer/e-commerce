@@ -72,7 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "get_notifications_of_collection_dates":
             MessageLookupByLibrary.simpleMessage(
                 "ضمان الحصول على إشعارات\nبمواعيد تحصيل الاقساط"),
-        "hI_FELLA": MessageLookupByLibrary.simpleMessage("مرحباً بك"),
+        "hI_FELLA": MessageLookupByLibrary.simpleMessage("اهلا صديقي"),
         "have_an_account":
             MessageLookupByLibrary.simpleMessage(" تمتلك حساباً بالفعل؟"),
         "hi": MessageLookupByLibrary.simpleMessage("هلا"),
@@ -125,6 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تحقق وانشيء الحساب"),
         "we_serve_you": MessageLookupByLibrary.simpleMessage(
             "نحن نقدم لك أفضل الأدوات لمساحة العمل المنزلية الخاصة بك"),
-        "welcom": MessageLookupByLibrary.simpleMessage("مرحباً")
+        "welcom": MessageLookupByLibrary.simpleMessage("مرحباً"),
+        "welcome_Back": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك")
       };
 }

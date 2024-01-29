@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/padding_helper.dart';
+import 'package:installment/generated/l10n.dart';
 
 import 'hi_text.dart';
 
@@ -13,10 +15,15 @@ class HomePageBody extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(
           horizontal: PaddingHelper.allAppw, vertical: PaddingHelper.allApph),
-      child: const Column(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Spacer(),
-          HiText(),
+          const Spacer(),
+          const HiText(),
+          Text(
+            S.of(context).welcome_Back,
+            style: AppTextStyleManger.s28BlackBlack,
+          ),
         ],
       ),
     );
