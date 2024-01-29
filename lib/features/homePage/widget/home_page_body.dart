@@ -32,15 +32,20 @@ class HomePageBody extends StatelessWidget {
 }
 
 class HomeLoginButton extends StatelessWidget {
+  final String text;
+  final IconData? icon;
   const HomeLoginButton({
     super.key,
+    required this.text,
+    this.icon,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: const ListTile(
-        title: Text(),
+      child: ListTile(
+        title: Text(text),
+        trailing: Icon(icon),
       ),
     );
   }
