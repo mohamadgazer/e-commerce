@@ -17,7 +17,7 @@ class BottomSignUpWidgets extends StatelessWidget {
         MaterialButton(
           onPressed: () {},
           child: Text(
-            S.of(context).forget_password,
+            S.of(context).dont_have_an_account,
             style: AppTextStyleManger.s16BookGreyDeeperr,
           ),
         ),
