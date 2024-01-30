@@ -6,14 +6,14 @@ import 'custom_suffix_icon.dart';
 
 class AuthFormField extends StatelessWidget {
   final bool obsecureText;
-  final String label;
-  final String hintText;
+  final String? label;
+  final String? hintText;
   final IconData? icon;
   final void Function()? onTap;
   const AuthFormField({
     super.key,
-    required this.label,
-    required this.hintText,
+    this.label,
+    this.hintText,
     this.obsecureText = false,
     this.icon,
     this.onTap,
