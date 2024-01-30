@@ -76,7 +76,7 @@ class _SignUpInputFormState extends State<SignUpInputForm> {
           // LOGIN BUTTON
           CustomMaterialButton(
             color: AppColorManger.primary,
-            text: S.of(context).log_In,
+            text: S.of(context).sign_up,
             redius: PaddingHelper.borderReduoc,
           ),
         ],
