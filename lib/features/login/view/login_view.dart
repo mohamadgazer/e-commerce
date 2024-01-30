@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widget/home_page_body.dart';
+import '../widget/login_body.dart';
 
 class LoginView extends StatelessWidget {
   static const String id = "/login";

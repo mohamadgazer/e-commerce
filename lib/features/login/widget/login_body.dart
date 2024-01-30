@@ -17,8 +17,7 @@ class LoginBody extends StatelessWidget {
   Widget build(BuildContext context) {
     // Screen Padding
     return Padding(
-      padding: EdgeInsets.symmetric(
-          horizontal: PaddingHelper.allAppw, vertical: PaddingHelper.allApph),
+      padding: EdgeInsets.symmetric(horizontal: PaddingHelper.allAppw),
 
       // make scroll
       child: SingleChildScrollView(
@@ -28,7 +27,7 @@ class LoginBody extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 70),
+            // const SizedBox(height: 10),
             // HEAD TEXT
             const HiText(),
             const WelcomBackText(),
