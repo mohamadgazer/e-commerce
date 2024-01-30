@@ -42,7 +42,17 @@ class _SignUpInputFormState extends State<SignUpInputForm> {
               style: AppTextStyleManger.s12BookBlack),
           SizedBox(height: 12.h),
           // EMAIL FORM FEILD
-          const AuthFormField(),
+          Row(
+            children: [
+              const Flexible(
+                  flex: 1,
+                  child: AuthFormField(
+                    hintText: "+200",
+                  )),
+              SizedBox(width: 3.w),
+              const Flexible(flex: 2, child: AuthFormField()),
+            ],
+          ),
           SizedBox(
             height: PaddingHelper.sbH20,
           ),
