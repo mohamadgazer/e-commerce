@@ -116,7 +116,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "select_theme":
             MessageLookupByLibrary.simpleMessage("select your theme :"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),
-        "sign_up": MessageLookupByLibrary.simpleMessage("sign up"),
+        "sign_up": MessageLookupByLibrary.simpleMessage("Sign up"),
         "skip_button": MessageLookupByLibrary.simpleMessage("skip"),
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(

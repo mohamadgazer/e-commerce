@@ -26,13 +26,22 @@ class AppTextStyleManger {
   );
 
   //book
-
+//12
   static TextStyle s12BookGreyDeep = TextStyle(
     fontSize: 12.sp,
     color: AppColorManger.greyDeep,
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
+  //15
+  static TextStyle s12BookBlack = TextStyle(
+    fontSize: 12.sp,
+    color: AppColorManger.black,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
+
+  // 16
   static TextStyle s16BookGreyLighter = TextStyle(
     fontSize: 16.sp,
     color: AppColorManger.greyLighter,
@@ -48,6 +57,12 @@ class AppTextStyleManger {
   static TextStyle s16BookBlack = TextStyle(
     fontSize: 16.sp,
     color: AppColorManger.black,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
+  static TextStyle s16Booksecondary = TextStyle(
+    fontSize: 16.sp,
+    color: AppColorManger.secondary,
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );

@@ -6,4 +6,5 @@ class PaddingHelper {
   static double borderReduoc = 8;
   static double sbH20 = 20.h;
   static double sbH60 = 60.h;
+  static double sbH77 = 77.h;
 }
