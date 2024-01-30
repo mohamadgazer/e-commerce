@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/homePage/widget/home_login_button.dart';
+import 'package:installment/features/login/widget/home_login_button.dart';
 import 'package:installment/generated/l10n.dart';
 
-class HomeLoginButtonUi extends StatelessWidget {
-  const HomeLoginButtonUi({
+class LoginWithButtonUi extends StatelessWidget {
+  const LoginWithButtonUi({
     super.key,
   });
 

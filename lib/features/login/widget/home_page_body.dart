@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/homePage/widget/login_input_form.dart';
+import 'package:installment/features/login/widget/login_input_form.dart';
 
 import 'bottom_auth_widgets.dart';
 import 'hi_text.dart';
-import 'home_login_button_ui.dart';
+import 'login_with_button_ui.dart';
 import 'or_text.dart';
 import 'welcom_back_text.dart';
 
-class HomePageBody extends StatelessWidget {
-  const HomePageBody({
+class LoginBody extends StatelessWidget {
+  const LoginBody({
     super.key,
   });
 
@@ -34,7 +34,7 @@ class HomePageBody extends StatelessWidget {
             const WelcomBackText(),
             SizedBox(height: PaddingHelper.sbH60),
             // LOGIN WITH BUTTONS
-            const HomeLoginButtonUi(),
+            const LoginWithButtonUi(),
             // OR TEXT
             const OrText(),
             // *** TEXT FORM FEILD  AND LOGIN BUTTON

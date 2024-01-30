@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../widget/home_page_body.dart';
 
-class HomePageView extends StatelessWidget {
-  static const String id = "/homePageid";
-  const HomePageView({
+class LoginView extends StatelessWidget {
+  static const String id = "/login";
+  const LoginView({
     super.key,
   });
 
@@ -18,7 +18,7 @@ class HomePageView extends StatelessWidget {
       //     IconButton(onPressed: () {}, icon: const Icon(Icons.settings))
       //   ],
       // ),
-      body: HomePageBody(),
+      body: LoginBody(),
     );
   }
 }

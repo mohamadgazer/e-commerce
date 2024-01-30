@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/routing/routers.dart';
 import 'package:installment/features/Setting/view/setting_view.dart';
-import 'package:installment/features/homePage/view/home_page_view.dart';
+import 'package:installment/features/login/view/home_page_view.dart';
 import 'package:installment/features/onboarding/view/onboarding_view.dart';
 
 class AppRouter {
@@ -9,7 +9,7 @@ class AppRouter {
     switch (settings.name) {
       case Routes.home:
         return MaterialPageRoute(
-          builder: (_) => const HomePageView(),
+          builder: (_) => const LoginView(),
         );
 
       case Routes.setting:

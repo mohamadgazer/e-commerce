@@ -4,7 +4,7 @@ import 'package:installment/core/app_images_manger.dart';
 import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/helper/context_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
-import 'package:installment/features/homePage/view/home_page_view.dart';
+import 'package:installment/features/login/view/home_page_view.dart';
 import 'package:installment/generated/l10n.dart';
 
 class OnBoardingBody extends StatelessWidget {
@@ -67,7 +67,7 @@ class OnBoardingBody extends StatelessWidget {
                       SizedBox(height: 10.h),
                       TextButton(
                         onPressed: () {
-                          context.pushReplacementNamed(HomePageView.id);
+                          context.pushReplacementNamed(LoginView.id);
                         },
                         child: Text(
                           S.of(context).log_In,
