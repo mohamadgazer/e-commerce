@@ -23,10 +23,6 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Or_login_with": MessageLookupByLibrary.simpleMessage("Or login with"),
-        "Signup_with_facebook":
-            MessageLookupByLibrary.simpleMessage("Sign Up with FaceBook"),
-        "Signup_with_google":
-            MessageLookupByLibrary.simpleMessage("Sign Up with Google"),
         "Success": MessageLookupByLibrary.simpleMessage("Success"),
         "add": MessageLookupByLibrary.simpleMessage("add"),
         "add_date": MessageLookupByLibrary.simpleMessage("Date added"),
@@ -121,6 +117,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("select your theme :"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign up"),
+        "signup_with_facebook":
+            MessageLookupByLibrary.simpleMessage("Sign Up with FaceBook"),
+        "signup_with_google":
+            MessageLookupByLibrary.simpleMessage("Sign Up with Google"),
         "skip_button": MessageLookupByLibrary.simpleMessage("skip"),
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(

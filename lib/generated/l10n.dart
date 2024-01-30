@@ -763,20 +763,20 @@ class S {
   }
 
   /// `Sign Up with Google`
-  String get Signup_with_google {
+  String get signup_with_google {
     return Intl.message(
       'Sign Up with Google',
-      name: 'Signup_with_google',
+      name: 'signup_with_google',
       desc: '',
       args: [],
     );
   }
 
   /// `Sign Up with FaceBook`
-  String get Signup_with_facebook {
+  String get signup_with_facebook {
     return Intl.message(
       'Sign Up with FaceBook',
-      name: 'Signup_with_facebook',
+      name: 'signup_with_facebook',
       desc: '',
       args: [],
     );

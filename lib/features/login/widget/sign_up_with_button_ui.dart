@@ -14,13 +14,13 @@ class SignUpWithButtonUi extends StatelessWidget {
     return Column(
       children: [
         HomeLoginButton(
-          text: S.of(context).login_with_google,
+          text: S.of(context).Signup_with_google,
           icon: AppImageManger.googleIcon,
           onTap: () {},
         ),
         SizedBox(height: PaddingHelper.sbH20),
         HomeLoginButton(
-          text: S.of(context).login_with_facebook,
+          text: S.of(context).Signup_with_google,
           icon: AppImageManger.facebookIcon,
           onTap: () {},
         ),
