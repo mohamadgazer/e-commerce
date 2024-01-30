@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:installment/core/routing/routers.dart';
 import 'package:installment/features/Setting/view/setting_view.dart';
 import 'package:installment/features/login/view/login_view.dart';
+import 'package:installment/features/login/view/signup_view.dart';
 import 'package:installment/features/onboarding/view/onboarding_view.dart';
 
 class AppRouter {
@@ -15,6 +16,10 @@ class AppRouter {
       case Routes.setting:
         return MaterialPageRoute(
           builder: (_) => const SettingPageView(),
+        );
+      case Routes.signup:
+        return MaterialPageRoute(
+          builder: (_) => const SignUpView(),
         );
       case Routes.onBoarding:
         return MaterialPageRoute(

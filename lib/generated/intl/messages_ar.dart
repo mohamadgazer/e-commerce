@@ -131,6 +131,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "we_serve_you": MessageLookupByLibrary.simpleMessage(
             "نحن نقدم لك أفضل الأدوات لمساحة العمل المنزلية الخاصة بك"),
         "welcom": MessageLookupByLibrary.simpleMessage("مرحباً"),
+        "welcom_to": MessageLookupByLibrary.simpleMessage("مرحباً إلى"),
         "welcome_Back": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك")
       };
 }

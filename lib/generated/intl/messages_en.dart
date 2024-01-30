@@ -130,7 +130,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Verify and Create Account"),
         "we_serve_you": MessageLookupByLibrary.simpleMessage(
             "We serve you with the best gadgets for your home workspace "),
-        "welcom": MessageLookupByLibrary.simpleMessage("WELCOME"),
+        "welcom": MessageLookupByLibrary.simpleMessage("Welcome"),
+        "welcom_to": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "welcome_Back": MessageLookupByLibrary.simpleMessage("Welcome Back")
       };
 }

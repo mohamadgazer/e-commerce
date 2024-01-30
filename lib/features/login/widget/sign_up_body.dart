@@ -1,21 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
+import 'package:installment/features/login/widget/bottom_auth_widgets.dart';
+import 'package:installment/features/login/widget/hi_text.dart';
 import 'package:installment/features/login/widget/login_input_form.dart';
+import 'package:installment/features/login/widget/or_text.dart';
+import 'package:installment/features/login/widget/sign_up_with_button_ui.dart';
+import 'package:installment/features/login/widget/welcom_to_text.dart';
 
-import 'bottom_auth_widgets.dart';
-import 'hi_text.dart';
-import 'login_with_button_ui.dart';
-import 'or_text.dart';
-import 'welcom_back_text.dart';
-
-class LoginBody extends StatelessWidget {
-  const LoginBody({
+class SignUpBody extends StatelessWidget {
+  const SignUpBody({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    // Screen Padding
     return SafeArea(
       child: Padding(
         padding: EdgeInsets.symmetric(
@@ -32,10 +30,10 @@ class LoginBody extends StatelessWidget {
               // const SizedBox(height: 10),
               // HEAD TEXT
               const HiText(),
-              const WelcomBackText(),
+              const WelcomToText(),
               SizedBox(height: PaddingHelper.sbH60),
               // LOGIN WITH BUTTONS
-              const LoginWithButtonUi(),
+              const SignUpWithButtonUi(),
               // OR TEXT
               const OrText(),
               // *** TEXT FORM FEILD  AND LOGIN BUTTON

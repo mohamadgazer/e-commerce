@@ -672,11 +672,21 @@ class S {
     );
   }
 
-  /// `WELCOME`
+  /// `Welcome`
   String get welcom {
     return Intl.message(
-      'WELCOME',
+      'Welcome',
       name: 'welcom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Welcome to`
+  String get welcom_to {
+    return Intl.message(
+      'Welcome to',
+      name: 'welcom_to',
       desc: '',
       args: [],
     );
