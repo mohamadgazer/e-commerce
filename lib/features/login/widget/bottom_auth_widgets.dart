@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/helper/context_helper.dart';
-import 'package:installment/features/login/view/login_view.dart';
+import 'package:installment/features/login/view/signup_view.dart';
 import 'package:installment/generated/l10n.dart';
 
-class BottomSignUpWidgets extends StatelessWidget {
-  const BottomSignUpWidgets({
+class BottomLoginWidgets extends StatelessWidget {
+  const BottomLoginWidgets({
     super.key,
   });
 
@@ -23,10 +23,10 @@ class BottomSignUpWidgets extends StatelessWidget {
         ),
         MaterialButton(
           onPressed: () {
-            context.pushReplacementNamed(LoginView.id);
+            context.pushReplacementNamed(SignUpView.id);
           },
           child: Text(
-            S.of(context).log_In,
+            S.of(context).sign_up,
             style: AppTextStyleManger.s16Booksecondary,
           ),
         ),

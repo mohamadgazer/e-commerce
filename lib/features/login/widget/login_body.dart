@@ -42,7 +42,7 @@ class LoginBody extends StatelessWidget {
               const LoginInputForm(),
               SizedBox(height: PaddingHelper.sbH20),
               // FORGET PASSWORD AND SIGNUP BUTTONS
-              const BottomSignUpWidgets(),
+              const BottomLoginWidgets(),
             ],
           ),
         ),
