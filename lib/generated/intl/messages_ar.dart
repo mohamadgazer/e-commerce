@@ -24,6 +24,10 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Or_login_with":
             MessageLookupByLibrary.simpleMessage("أو سجل الدخول عبر"),
+        "Signup_with_facebook":
+            MessageLookupByLibrary.simpleMessage("إنشاء حساب باستخدام فيس بوك"),
+        "Signup_with_google":
+            MessageLookupByLibrary.simpleMessage("إنشاء حساب باستخدام جوجل"),
         "Success": MessageLookupByLibrary.simpleMessage("تم العملية بنجاح"),
         "add": MessageLookupByLibrary.simpleMessage("اضف"),
         "add_date": MessageLookupByLibrary.simpleMessage("تاريخ الإضافة"),
