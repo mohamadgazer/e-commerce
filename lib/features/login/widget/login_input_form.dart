@@ -27,7 +27,8 @@ class _LoginInputFormState extends State<LoginInputForm> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Email", style: AppTextStyleManger.s12BookBlack),
+          Text(S.of(context).enter_email,
+              style: AppTextStyleManger.s12BookBlack),
           SizedBox(height: 12.h),
           // EMAIL FORM FEILD
           const AuthFormField(
@@ -39,7 +40,7 @@ class _LoginInputFormState extends State<LoginInputForm> {
           ),
 
           // PASSWORD FORM FEILD
-          Text("Password", style: AppTextStyleManger.s12BookBlack),
+          Text(S.of(context).password, style: AppTextStyleManger.s12BookBlack),
           SizedBox(height: 12.h),
           AuthFormField(
             label: "Password",

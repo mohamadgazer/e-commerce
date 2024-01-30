@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/features/login/widget/bottom_auth_widgets.dart';
 import 'package:installment/features/login/widget/hi_text.dart';
-import 'package:installment/features/login/widget/login_input_form.dart';
 import 'package:installment/features/login/widget/or_text.dart';
+import 'package:installment/features/login/widget/sign_up_input_form.dart';
 import 'package:installment/features/login/widget/sign_up_with_button_ui.dart';
 import 'package:installment/features/login/widget/welcom_to_text.dart';
 
@@ -37,7 +37,7 @@ class SignUpBody extends StatelessWidget {
               // OR TEXT
               const OrText(),
               // *** TEXT FORM FEILD  AND LOGIN BUTTON
-              const LoginInputForm(),
+              const SignUpInputForm(),
               SizedBox(height: PaddingHelper.sbH20),
               // FORGET PASSWORD AND SIGNUP BUTTONS
               const BottomAuthWidgets(),

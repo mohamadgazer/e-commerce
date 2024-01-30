@@ -27,7 +27,19 @@ class _SignUpInputFormState extends State<SignUpInputForm> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Email", style: AppTextStyleManger.s12BookBlack),
+          Text(S.of(context).enter_email,
+              style: AppTextStyleManger.s12BookBlack),
+          SizedBox(height: 12.h),
+          // EMAIL FORM FEILD
+          const AuthFormField(
+            label: "Email",
+            hintText: "excemple@excemple.com",
+          ),
+          SizedBox(
+            height: PaddingHelper.sbH20,
+          ),
+          Text(S.of(context).phone_number,
+              style: AppTextStyleManger.s12BookBlack),
           SizedBox(height: 12.h),
           // EMAIL FORM FEILD
           const AuthFormField(
@@ -39,7 +51,7 @@ class _SignUpInputFormState extends State<SignUpInputForm> {
           ),
 
           // PASSWORD FORM FEILD
-          Text("Password", style: AppTextStyleManger.s12BookBlack),
+          Text(S.of(context).password, style: AppTextStyleManger.s12BookBlack),
           SizedBox(height: 12.h),
           AuthFormField(
             label: "Password",
