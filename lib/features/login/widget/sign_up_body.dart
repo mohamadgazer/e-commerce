@@ -40,7 +40,7 @@ class SignUpBody extends StatelessWidget {
               const SignUpInputForm(),
               SizedBox(height: PaddingHelper.sbH20),
               // FORGET PASSWORD AND SIGNUP BUTTONS
-              const BottomAuthWidgets(),
+              const BottomSignUpWidgets(),
             ],
           ),
         ),
