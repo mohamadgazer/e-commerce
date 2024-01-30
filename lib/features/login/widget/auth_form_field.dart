@@ -10,6 +10,7 @@ class AuthFormField extends StatelessWidget {
   final String? hintText;
   final IconData? icon;
   final void Function()? onTap;
+  final TextEditingController? controller;
   const AuthFormField({
     super.key,
     this.label,
@@ -17,6 +18,7 @@ class AuthFormField extends StatelessWidget {
     this.obsecureText = false,
     this.icon,
     this.onTap,
+    this.controller,
   });
 
   @override
@@ -45,6 +47,7 @@ class AuthFormField extends StatelessWidget {
 
     // main code
     return TextFormField(
+      controller: controller,
       obscureText: obsecureText,
       focusNode: FocusNode(canRequestFocus: true),
       decoration: InputDecoration(
