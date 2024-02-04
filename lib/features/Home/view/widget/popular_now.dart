@@ -7,6 +7,10 @@ class PopularNow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Stack();
+    return const Stack(
+      children: [
+        Text("Popular now"),
+      ],
+    );
   }
 }

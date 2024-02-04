@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/features/auth/widget/body_template.dart';
 
 import 'popular_now.dart';
@@ -11,10 +12,11 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const BodyTemplate(
+    return BodyTemplate(
       children: [
-        TopHomeBody(),
-        PopularNow(),
+        const TopHomeBody(),
+        SizedBox(height: 40.h),
+        const PopularNow(),
       ],
     );
   }
