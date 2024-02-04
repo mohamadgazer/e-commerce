@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/generated/l10n.dart';
 
 class PopularNow extends StatelessWidget {
   const PopularNow({
@@ -7,9 +9,12 @@ class PopularNow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Stack(
+    return Stack(
       children: [
-        Text("Popular now"),
+        Text(
+          S.of(context).popular_now,
+          style: AppTextStyleManger.s21BlackBlack,
+        ),
       ],
     );
   }

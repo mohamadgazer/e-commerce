@@ -5,13 +5,21 @@ import 'package:installment/core/theming/app_color.dart';
 
 class AppTextStyleManger {
   //black
-
+//12
   static TextStyle s12BlackGreyDeeper2 = TextStyle(
     fontSize: 12.sp,
     color: AppColorManger.greyDeeper2,
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
+  //21
+  static TextStyle s21BlackBlack = TextStyle(
+    fontSize: 21.sp,
+    color: AppColorManger.black,
+    fontFamily: AppFont.black,
+    fontWeight: FontWeight.bold,
+  );
+  //28
   static TextStyle s28BlackBlack = TextStyle(
     fontSize: 28.sp,
     color: AppColorManger.black,

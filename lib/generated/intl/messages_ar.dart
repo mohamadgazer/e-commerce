@@ -107,6 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "or": MessageLookupByLibrary.simpleMessage("او عبر"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+        "popular_now": MessageLookupByLibrary.simpleMessage("رائج حالياً"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
         "reset": MessageLookupByLibrary.simpleMessage("تمت"),
         "reset_password":

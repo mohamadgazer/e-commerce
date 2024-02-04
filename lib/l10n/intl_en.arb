@@ -74,7 +74,8 @@
     "login_with_facebook":"Login with FaceBook",
     "signup_with_google":"Sign Up with Google",
     "signup_with_facebook":"Sign Up with FaceBook",
-    "or":"OR"
+    "or":"OR",
+    "popular_now":"Popular now"
 
 
 }
