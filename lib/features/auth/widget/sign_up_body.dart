@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
+import 'package:installment/features/auth/widget/body_template.dart';
 import 'package:installment/features/auth/widget/bottom_sign_up_widgets.dart';
 import 'package:installment/features/auth/widget/hi_text.dart';
 import 'package:installment/features/auth/widget/or_text.dart';
@@ -14,37 +15,21 @@ class SignUpBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Padding(
-        padding: EdgeInsets.symmetric(
-            horizontal: PaddingHelper.allAppw, vertical: PaddingHelper.allApph),
-
-        // make scroll
-        child: SingleChildScrollView(
-          // List of Widget
-
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // const SizedBox(height: 10),
-              // HEAD TEXT
-              const HiText(),
-              const WelcomToText(),
-              SizedBox(height: PaddingHelper.sbH60),
-              // LOGIN WITH BUTTONS
-              const SignUpWithButtonUi(),
-              // OR TEXT
-              const OrText(),
-              // *** TEXT FORM FEILD  AND LOGIN BUTTON
-              const SignUpInputForm(),
-              SizedBox(height: PaddingHelper.sbH20),
-              // FORGET PASSWORD AND SIGNUP BUTTONS
-              const BottomSignUpWidgets(),
-            ],
-          ),
-        ),
-      ),
-    );
+    return BodyTemplate(children: [
+      // const SizedBox(height: 10),
+      // HEAD TEXT
+      const HiText(),
+      const WelcomToText(),
+      SizedBox(height: PaddingHelper.sbH60),
+      // LOGIN WITH BUTTONS
+      const SignUpWithButtonUi(),
+      // OR TEXT
+      const OrText(),
+      // *** TEXT FORM FEILD  AND LOGIN BUTTON
+      const SignUpInputForm(),
+      SizedBox(height: PaddingHelper.sbH20),
+      // FORGET PASSWORD AND SIGNUP BUTTONS
+      const BottomSignUpWidgets(),
+    ]);
   }
 }
