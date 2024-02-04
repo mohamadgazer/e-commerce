@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:installment/features/auth/widget/body_template.dart';
+
+import 'top_home_body.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({
@@ -7,26 +10,9 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
-      child: Column(
-        children: [TopHomeBody()],
-      ),
-    );
-  }
-}
-
-class TopHomeBody extends StatelessWidget {
-  const TopHomeBody({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    return const BodyTemplate(
       children: [
-        Text("data"),
-        Text("data"),
+        TopHomeBody(),
       ],
     );
   }
