@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/login/widget/bottom_sign_up_widgets.dart';
-import 'package:installment/features/login/widget/hi_text.dart';
-import 'package:installment/features/login/widget/or_text.dart';
-import 'package:installment/features/login/widget/sign_up_input_form.dart';
-import 'package:installment/features/login/widget/sign_up_with_button_ui.dart';
-import 'package:installment/features/login/widget/welcom_to_text.dart';
+import 'package:installment/features/auth/widget/bottom_sign_up_widgets.dart';
+import 'package:installment/features/auth/widget/hi_text.dart';
+import 'package:installment/features/auth/widget/or_text.dart';
+import 'package:installment/features/auth/widget/sign_up_input_form.dart';
+import 'package:installment/features/auth/widget/sign_up_with_button_ui.dart';
+import 'package:installment/features/auth/widget/welcom_to_text.dart';
 
 class SignUpBody extends StatelessWidget {
   const SignUpBody({

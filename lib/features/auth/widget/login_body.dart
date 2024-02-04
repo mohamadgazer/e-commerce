@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/login/widget/login_input_form.dart';
+import 'package:installment/features/auth/widget/login_input_form.dart';
 
 import 'bottom_auth_widgets.dart';
 import 'hi_text.dart';

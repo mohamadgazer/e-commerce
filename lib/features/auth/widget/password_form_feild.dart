@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/app_text_style_manger.dart';
-import 'package:installment/features/login/widget/auth_form_field.dart';
+import 'package:installment/features/auth/widget/auth_form_field.dart';
 import 'package:installment/generated/l10n.dart';
 
 class PasswordFormFeild extends StatefulWidget {

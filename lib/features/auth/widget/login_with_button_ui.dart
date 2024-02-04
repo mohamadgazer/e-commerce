@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/login/widget/home_login_button.dart';
+import 'package:installment/features/auth/widget/home_login_button.dart';
 import 'package:installment/generated/l10n.dart';
 
-class SignUpWithButtonUi extends StatelessWidget {
-  const SignUpWithButtonUi({
+class LoginWithButtonUi extends StatelessWidget {
+  const LoginWithButtonUi({
     super.key,
   });
 
@@ -14,13 +14,13 @@ class SignUpWithButtonUi extends StatelessWidget {
     return Column(
       children: [
         HomeLoginButton(
-          text: S.of(context).signup_with_google,
+          text: S.of(context).login_with_google,
           icon: AppImageManger.googleIcon,
           onTap: () {},
         ),
         SizedBox(height: PaddingHelper.sbH20),
         HomeLoginButton(
-          text: S.of(context).signup_with_facebook,
+          text: S.of(context).login_with_facebook,
           icon: AppImageManger.facebookIcon,
           onTap: () {},
         ),

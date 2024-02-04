@@ -1,6 +1,6 @@
 import 'package:installment/features/Setting/view/setting_view.dart';
-import 'package:installment/features/login/view/login_view.dart';
-import 'package:installment/features/login/view/signup_view.dart';
+import 'package:installment/features/auth/view/login_view.dart';
+import 'package:installment/features/auth/view/signup_view.dart';
 import 'package:installment/features/onboarding/view/onboarding_view.dart';
 
 class Routes {

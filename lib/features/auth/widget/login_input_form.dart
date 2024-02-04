@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
-import 'package:installment/features/login/widget/email_form_feild.dart';
-import 'package:installment/features/login/widget/password_form_feild.dart';
+import 'package:installment/features/auth/widget/email_form_feild.dart';
+import 'package:installment/features/auth/widget/password_form_feild.dart';
 import 'package:installment/generated/l10n.dart';
 
 import 'custom_material_button.dart';
