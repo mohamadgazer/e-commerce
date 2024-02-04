@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'top_home_avatar.dart';
+import 'top_home_buttons.dart';
+
 class TopHomeBody extends StatelessWidget {
   const TopHomeBody({
     super.key,
@@ -10,8 +13,8 @@ class TopHomeBody extends StatelessWidget {
     return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text("data"),
-        Text("data"),
+        TopHomeAvatar(),
+        TopHomeButtons(),
       ],
     );
   }
