@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/features/auth/widget/body_template.dart';
 
+import 'popular_now.dart';
 import 'top_home_body.dart';
 
 class HomeBody extends StatelessWidget {
@@ -13,6 +14,7 @@ class HomeBody extends StatelessWidget {
     return const BodyTemplate(
       children: [
         TopHomeBody(),
+        PopularNow(),
       ],
     );
   }
