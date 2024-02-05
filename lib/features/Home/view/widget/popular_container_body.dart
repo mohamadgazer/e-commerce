@@ -30,7 +30,7 @@ class PopularContainerBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              width: containerWidth / 1.6,
+              width: containerWidth / 1.9,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: children,

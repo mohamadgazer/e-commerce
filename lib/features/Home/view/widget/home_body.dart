@@ -4,6 +4,7 @@ import 'package:installment/features/auth/widget/body_template.dart';
 
 import 'popular_stack.dart';
 import 'top_home_body.dart';
+import 'work_spaces_body.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({
@@ -17,6 +18,8 @@ class HomeBody extends StatelessWidget {
         const TopHomeBody(),
         SizedBox(height: 40.h),
         const PopularStack(),
+        SizedBox(height: 40.h),
+        const WorkSpacesBody(),
       ],
     );
   }

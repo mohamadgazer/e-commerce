@@ -118,6 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reset_password":
             MessageLookupByLibrary.simpleMessage("إعاده ضبط كلمة المرور"),
         "save_data": MessageLookupByLibrary.simpleMessage("حفظ البيانات"),
+        "see_more": MessageLookupByLibrary.simpleMessage("المزيد"),
         "select_Language": MessageLookupByLibrary.simpleMessage("اختر اللغة"),
         "select_theme": MessageLookupByLibrary.simpleMessage("اختر الثيم :"),
         "settings": MessageLookupByLibrary.simpleMessage("الإعدادات"),
