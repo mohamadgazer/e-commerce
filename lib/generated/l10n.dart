@@ -842,6 +842,16 @@ class S {
     );
   }
 
+  /// `New Arrivals`
+  String get newArrivals {
+    return Intl.message(
+      'New Arrivals',
+      name: 'newArrivals',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `see more`
   String get see_more {
     return Intl.message(

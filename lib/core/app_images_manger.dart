@@ -8,4 +8,8 @@ class AppImageManger {
   static const String homeW03 = "assets/images/home_w_03.png";
   static const String homeW04 = "assets/images/home_w_04.png";
   static const String homeW05 = "assets/images/home_w_05.png";
+  static const String na01 = "assets/images/NA/01.png";
+  static const String na02 = "assets/images/NA/02.png";
+  static const String na03 = "assets/images/NA/03.png";
+  static const String na04 = "assets/images/NA/04.png";
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:installment/features/Home/widget/new_arrivals.dart';
 import 'package:installment/features/auth/widget/body_template.dart';
 
 import 'popular_stack.dart';
@@ -20,6 +21,8 @@ class HomeBody extends StatelessWidget {
         const PopularStack(),
         SizedBox(height: 40.h),
         const WorkSpacesBody(),
+        SizedBox(height: 40.h),
+        const NewArrivals(),
       ],
     );
   }

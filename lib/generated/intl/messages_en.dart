@@ -90,6 +90,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout": MessageLookupByLibrary.simpleMessage("log out"),
         "marketer": MessageLookupByLibrary.simpleMessage("Marketer"),
         "national_id": MessageLookupByLibrary.simpleMessage("national id"),
+        "newArrivals": MessageLookupByLibrary.simpleMessage("New Arrivals"),
         "not_valid_National_id":
             MessageLookupByLibrary.simpleMessage("not valid National ID"),
         "not_valid_email":

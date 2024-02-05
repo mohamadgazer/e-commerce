@@ -91,6 +91,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
         "marketer": MessageLookupByLibrary.simpleMessage("مسوق"),
         "national_id": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
+        "newArrivals": MessageLookupByLibrary.simpleMessage("وصل حديثاً"),
         "not_valid_National_id":
             MessageLookupByLibrary.simpleMessage("رقم قومي غير صحيح"),
         "not_valid_email":

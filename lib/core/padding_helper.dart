@@ -2,12 +2,16 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PH {
 //width
+  static double w1 = 1.w;
+  static double w8 = 8.w;
   static double w10 = 10.w;
   static double w16 = 16.w;
   static double w24 = 24.w;
 // hight
 
+  static double h4 = 4.h;
   static double h10 = 10.h;
+  static double h12 = 12.h;
   static double h18 = 18.h;
   static double h25 = 25.h;
   static double h20 = 20.h;

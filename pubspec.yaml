@@ -15,6 +15,7 @@ dependencies:
   flutter_native_splash: ^2.3.7
   fluttersax: ^0.0.6
   iconsax: ^0.0.8
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:
@@ -26,6 +27,7 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/
+    - assets/images/NA/
     - assets/images/onboarding/
     - assets/icons/
     
