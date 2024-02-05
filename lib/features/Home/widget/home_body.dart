@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:installment/features/Home/widget/laptop_body.dart';
 import 'package:installment/features/Home/widget/new_arrivals.dart';
 import 'package:installment/features/auth/widget/body_template.dart';
 
@@ -23,6 +24,8 @@ class HomeBody extends StatelessWidget {
         const WorkSpacesBody(),
         SizedBox(height: 40.h),
         const NewArrivals(),
+        SizedBox(height: 40.h),
+        const LaptopBody(),
       ],
     );
   }

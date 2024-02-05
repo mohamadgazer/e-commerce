@@ -82,6 +82,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Adjustable Office Chair"),
         "hughlan_Workspaces":
             MessageLookupByLibrary.simpleMessage("Hughlan Workspaces"),
+        "laptop": MessageLookupByLibrary.simpleMessage("Laptop"),
         "log_In": MessageLookupByLibrary.simpleMessage("Log In"),
         "login_with_facebook":
             MessageLookupByLibrary.simpleMessage("Login with FaceBook"),

@@ -83,6 +83,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("كرسي مكتب قابل للتعديل"),
         "hughlan_Workspaces":
             MessageLookupByLibrary.simpleMessage("Hughlan Workspaces"),
+        "laptop": MessageLookupByLibrary.simpleMessage("لابتوب"),
         "log_In": MessageLookupByLibrary.simpleMessage("سجل الدخول"),
         "login_with_facebook":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول عبر فيسبوك"),

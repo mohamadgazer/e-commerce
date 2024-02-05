@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:installment/core/theming/app_color.dart';
 
 class TopHomeAvatar extends StatelessWidget {
@@ -10,7 +11,7 @@ class TopHomeAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return CircleAvatar(
       backgroundColor: AppColorManger.primary,
-      child: const Text("user"),
+      child: const Icon(FontAwesomeIcons.user),
     );
   }
 }
