@@ -111,6 +111,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("phone number"),
         "popular_now": MessageLookupByLibrary.simpleMessage("Popular now"),
+        "rate_48": MessageLookupByLibrary.simpleMessage("4.8"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
         "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "reset_password":
@@ -141,6 +142,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "We serve you with the best gadgets for your home workspace "),
         "welcom": MessageLookupByLibrary.simpleMessage("Welcome"),
         "welcom_to": MessageLookupByLibrary.simpleMessage("Welcome to"),
-        "welcome_Back": MessageLookupByLibrary.simpleMessage("Welcome Back")
+        "welcome_Back": MessageLookupByLibrary.simpleMessage("Welcome Back"),
+        "workspaces": MessageLookupByLibrary.simpleMessage("Workspaces")
       };
 }

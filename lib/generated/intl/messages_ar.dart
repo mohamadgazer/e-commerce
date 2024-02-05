@@ -112,6 +112,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "popular_now": MessageLookupByLibrary.simpleMessage("رائج حالياً"),
+        "rate_48": MessageLookupByLibrary.simpleMessage("4.8"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
         "reset": MessageLookupByLibrary.simpleMessage("تمت"),
         "reset_password":
@@ -141,6 +142,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "نحن نقدم لك أفضل الأدوات لمساحة العمل المنزلية الخاصة بك"),
         "welcom": MessageLookupByLibrary.simpleMessage("مرحباً"),
         "welcom_to": MessageLookupByLibrary.simpleMessage("مرحباً إلى"),
-        "welcome_Back": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك")
+        "welcome_Back": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك"),
+        "workspaces": MessageLookupByLibrary.simpleMessage("مساحات العمل")
       };
 }

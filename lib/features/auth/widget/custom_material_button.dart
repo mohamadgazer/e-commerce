@@ -5,14 +5,16 @@ class CustomMaterialButton extends StatelessWidget {
   final String text;
   final Color color;
   final double redius;
+  final double minWidth;
   final void Function()? onPressed;
 
   const CustomMaterialButton({
     super.key,
     required this.text,
     required this.color,
-    required this.redius,
+    this.redius = 10,
     this.onPressed,
+    this.minWidth = 20,
   });
 
   @override
@@ -21,7 +23,10 @@ class CustomMaterialButton extends StatelessWidget {
       onPressed: onPressed,
       padding: EdgeInsets.symmetric(vertical: 15.h),
       shape: RoundedRectangleBorder(
-          borderRadius: BorderRadiusDirectional.all(Radius.circular(redius))),
+        borderRadius: BorderRadiusDirectional.all(
+          Radius.circular(redius),
+        ),
+      ),
       minWidth: double.infinity,
       color: color,
       child: Text(text),

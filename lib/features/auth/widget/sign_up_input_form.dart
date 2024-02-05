@@ -41,7 +41,7 @@ class SignUpInputForm extends StatelessWidget {
             onPressed: () {},
             color: AppColorManger.primary,
             text: S.of(context).sign_up,
-            redius: PH.br8,
+            redius: PH.r8,
           ),
         ],
       ),

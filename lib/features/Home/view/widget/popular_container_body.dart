@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 
@@ -20,10 +19,10 @@ class PopularContainerBody extends StatelessWidget {
     return Container(
       key: containerKey,
       width: double.infinity,
-      height: 220.h,
+      height: containerWidth / 1.65,
       decoration: BoxDecoration(
         color: AppColorManger.main,
-        borderRadius: BorderRadius.circular(PH.br32),
+        borderRadius: BorderRadius.circular(PH.r32),
       ),
       child: Padding(
         padding: EdgeInsets.all(PH.dg24),

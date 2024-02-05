@@ -3,6 +3,7 @@ import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/generated/l10n.dart';
 
+import 'popular_buttons.dart';
 import 'popular_container_body.dart';
 import 'popular_rate.dart';
 
@@ -29,10 +30,7 @@ class PopularContainer extends StatelessWidget {
         SizedBox(height: PH.h18),
         const PopularRate(),
         SizedBox(height: PH.h25),
-        Text(
-          "data",
-          style: AppTextStyleManger.s21Blackwhite,
-        ),
+        const PopularButtons(),
       ],
     );
   }

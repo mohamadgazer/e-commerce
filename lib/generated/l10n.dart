@@ -821,6 +821,26 @@ class S {
       args: [],
     );
   }
+
+  /// `4.8`
+  String get rate_48 {
+    return Intl.message(
+      '4.8',
+      name: 'rate_48',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Workspaces`
+  String get workspaces {
+    return Intl.message(
+      'Workspaces',
+      name: 'workspaces',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
