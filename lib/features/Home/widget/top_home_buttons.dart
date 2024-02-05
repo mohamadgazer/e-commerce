@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:installment/features/Home/view/widget/top_home_icon_button.dart';
+import 'package:installment/features/Home/widget/top_home_icon_button.dart';
 
 class TopHomeButtons extends StatelessWidget {
   const TopHomeButtons({

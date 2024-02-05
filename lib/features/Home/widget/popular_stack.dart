@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
-import 'package:installment/features/Home/view/widget/popular_now.dart';
+import 'package:installment/features/Home/widget/popular_now.dart';
 import 'package:installment/generated/l10n.dart';
 
-import '../../../../core/app_text_style_manger.dart';
+import '../../../core/app_text_style_manger.dart';
 
 class PopularStack extends StatelessWidget {
   const PopularStack({

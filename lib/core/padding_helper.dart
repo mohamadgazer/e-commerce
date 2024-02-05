@@ -7,6 +7,7 @@ class PH {
   static double w24 = 24.w;
 // hight
 
+  static double h10 = 10.h;
   static double h18 = 18.h;
   static double h25 = 25.h;
   static double h20 = 20.h;
