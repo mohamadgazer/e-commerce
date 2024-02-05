@@ -15,7 +15,7 @@ class LaptopBody extends StatelessWidget {
       children: [
         HeadLine(
           onTap: () {},
-          text: S.of(context).workspaces,
+          text: S.of(context).laptop,
         ),
         SizedBox(height: PH.h18),
         const WorkSpacesBuilder()
