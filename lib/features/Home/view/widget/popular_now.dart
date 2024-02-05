@@ -41,7 +41,7 @@ class _PopularNowState extends State<PopularNow> {
           S.of(context).popular_now,
           style: AppTextStyleManger.s21BlackBlack,
         ),
-        SizedBox(height: 26.h),
+        SizedBox(height: PH.h26),
         Container(
           key: containerKey,
           width: double.infinity,
@@ -64,11 +64,12 @@ class _PopularNowState extends State<PopularNow> {
                         S.of(context).home_popular,
                         style: AppTextStyleManger.s21Blackwhite,
                       ),
-                      SizedBox(height: PH.,)
+                      SizedBox(height: PH.h18),
                       Text(
                         S.of(context).hughlan_Workspaces,
                         style: AppTextStyleManger.s12BookgreyDeeper,
                       ),
+                      SizedBox(height: PH.h18),
                       Text(
                         "data",
                         style: AppTextStyleManger.s21Blackwhite,

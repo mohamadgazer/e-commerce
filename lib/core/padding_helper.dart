@@ -2,6 +2,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PH {
   static double h18 = 18.h;
+  static double h25 = 25.h;
+  static double h26 = 26.h;
   static double all24 = 24.dg;
   static double allApph = 40.h;
   static double allAppw = 24.w;
