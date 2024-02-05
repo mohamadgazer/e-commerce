@@ -851,6 +851,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Developer`
+  String get developer {
+    return Intl.message(
+      'Developer',
+      name: 'developer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Photographer`
+  String get photographer {
+    return Intl.message(
+      'Photographer',
+      name: 'photographer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Creative`
+  String get creative {
+    return Intl.message(
+      'Creative',
+      name: 'creative',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Marketer`
+  String get marketer {
+    return Intl.message(
+      'Marketer',
+      name: 'marketer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Tuber`
+  String get youtuber {
+    return Intl.message(
+      'You Tuber',
+      name: 'youtuber',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

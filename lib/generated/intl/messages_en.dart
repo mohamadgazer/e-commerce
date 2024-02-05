@@ -51,10 +51,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Continue with Phone"),
         "create_account":
             MessageLookupByLibrary.simpleMessage("Create account"),
+        "creative": MessageLookupByLibrary.simpleMessage("Creative"),
         "dark_Theme": MessageLookupByLibrary.simpleMessage("Dark Theme"),
         "debtor_id": MessageLookupByLibrary.simpleMessage("debtor id"),
         "debtor_list": MessageLookupByLibrary.simpleMessage("adbtor List"),
         "debtor_name": MessageLookupByLibrary.simpleMessage("debtor name"),
+        "developer": MessageLookupByLibrary.simpleMessage("Developer"),
         "done": MessageLookupByLibrary.simpleMessage("Done"),
         "dont_have_an_account":
             MessageLookupByLibrary.simpleMessage("Don’t have an account?"),
@@ -86,6 +88,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("Login with Google"),
         "logout": MessageLookupByLibrary.simpleMessage("log out"),
+        "marketer": MessageLookupByLibrary.simpleMessage("Marketer"),
         "national_id": MessageLookupByLibrary.simpleMessage("national id"),
         "not_valid_National_id":
             MessageLookupByLibrary.simpleMessage("not valid National ID"),
@@ -110,6 +113,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "or": MessageLookupByLibrary.simpleMessage("OR"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "phone_number": MessageLookupByLibrary.simpleMessage("phone number"),
+        "photographer": MessageLookupByLibrary.simpleMessage("Photographer"),
         "popular_now": MessageLookupByLibrary.simpleMessage("Popular now"),
         "rate_48": MessageLookupByLibrary.simpleMessage("4.8"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
@@ -144,6 +148,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "welcom": MessageLookupByLibrary.simpleMessage("Welcome"),
         "welcom_to": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "welcome_Back": MessageLookupByLibrary.simpleMessage("Welcome Back"),
-        "workspaces": MessageLookupByLibrary.simpleMessage("Workspaces")
+        "workspaces": MessageLookupByLibrary.simpleMessage("Workspaces"),
+        "youtuber": MessageLookupByLibrary.simpleMessage("You Tuber")
       };
 }

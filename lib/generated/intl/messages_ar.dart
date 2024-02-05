@@ -51,10 +51,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "continue_with_phone":
             MessageLookupByLibrary.simpleMessage("اكمل بربط الهاتف"),
         "create_account": MessageLookupByLibrary.simpleMessage("انشيء حسابا"),
+        "creative": MessageLookupByLibrary.simpleMessage("صانع محتوى"),
         "dark_Theme": MessageLookupByLibrary.simpleMessage("الوضع المظلم"),
         "debtor_id": MessageLookupByLibrary.simpleMessage("كود المدين"),
         "debtor_list": MessageLookupByLibrary.simpleMessage("قائمة المدينين"),
         "debtor_name": MessageLookupByLibrary.simpleMessage("اسم المدين"),
+        "developer": MessageLookupByLibrary.simpleMessage("مبرمج"),
         "done": MessageLookupByLibrary.simpleMessage("تم"),
         "dont_have_an_account":
             MessageLookupByLibrary.simpleMessage("لا تمتلك حساباً؟"),
@@ -87,6 +89,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login_with_google":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول عبر جوجل"),
         "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
+        "marketer": MessageLookupByLibrary.simpleMessage("مسوق"),
         "national_id": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
         "not_valid_National_id":
             MessageLookupByLibrary.simpleMessage("رقم قومي غير صحيح"),
@@ -111,6 +114,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "or": MessageLookupByLibrary.simpleMessage("او عبر"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+        "photographer": MessageLookupByLibrary.simpleMessage("مصور"),
         "popular_now": MessageLookupByLibrary.simpleMessage("رائج حالياً"),
         "rate_48": MessageLookupByLibrary.simpleMessage("4.8"),
         "remotelyio": MessageLookupByLibrary.simpleMessage("Remotely.io"),
@@ -144,6 +148,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "welcom": MessageLookupByLibrary.simpleMessage("مرحباً"),
         "welcom_to": MessageLookupByLibrary.simpleMessage("مرحباً إلى"),
         "welcome_Back": MessageLookupByLibrary.simpleMessage("مرحباً بعودتك"),
-        "workspaces": MessageLookupByLibrary.simpleMessage("مساحات العمل")
+        "workspaces": MessageLookupByLibrary.simpleMessage("مساحات العمل"),
+        "youtuber": MessageLookupByLibrary.simpleMessage("يوتيوبر")
       };
 }
