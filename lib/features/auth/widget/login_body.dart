@@ -23,14 +23,14 @@ class LoginBody extends StatelessWidget {
         // HEAD TEXT
         const HiText(),
         const WelcomBackText(),
-        SizedBox(height: PaddingHelper.sbH60),
+        SizedBox(height: PH.sbH60),
         // LOGIN WITH BUTTONS
         const LoginWithButtonUi(),
         // OR TEXT
         const OrText(),
         // *** TEXT FORM FEILD  AND LOGIN BUTTON
         const LoginInputForm(),
-        SizedBox(height: PaddingHelper.sbH20),
+        SizedBox(height: PH.sbH20),
         // FORGET PASSWORD AND SIGNUP BUTTONS
         const BottomLoginWidgets(),
       ],

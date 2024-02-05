@@ -21,8 +21,7 @@ class HomeLoginButton extends StatelessWidget {
       child: Container(
           decoration: BoxDecoration(
               shape: BoxShape.rectangle,
-              borderRadius:
-                  BorderRadius.all(Radius.circular(PaddingHelper.borderReduoc)),
+              borderRadius: BorderRadius.all(Radius.circular(PH.borderReduoc8)),
               border: Border.all(color: AppColorManger.greyDeep)),
           child: Padding(
             padding: const EdgeInsets.all(8.0),

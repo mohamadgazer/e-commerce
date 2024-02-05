@@ -77,6 +77,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage(" تمتلك حساباً بالفعل؟"),
         "hi": MessageLookupByLibrary.simpleMessage("هلا"),
         "home_page": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
+        "home_popular":
+            MessageLookupByLibrary.simpleMessage("كرسي مكتب قابل للتعديل"),
+        "hughlan_Workspaces":
+            MessageLookupByLibrary.simpleMessage("Hughlan Workspaces"),
         "log_In": MessageLookupByLibrary.simpleMessage("سجل الدخول"),
         "login_with_facebook":
             MessageLookupByLibrary.simpleMessage("تسجيل الدخول عبر فيسبوك"),

@@ -31,7 +31,7 @@ class AuthFormField extends StatelessWidget {
       ),
       borderRadius: BorderRadius.all(
         Radius.circular(
-          PaddingHelper.borderReduoc,
+          PH.borderReduoc8,
         ),
       ),
     );
@@ -41,7 +41,7 @@ class AuthFormField extends StatelessWidget {
         color: Colors.transparent,
       ),
       borderRadius: BorderRadius.circular(
-        PaddingHelper.borderReduoc,
+        PH.borderReduoc8,
       ),
     );
 

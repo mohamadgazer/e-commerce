@@ -801,6 +801,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Adjustable Office Chair`
+  String get home_popular {
+    return Intl.message(
+      'Adjustable Office Chair',
+      name: 'home_popular',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hughlan Workspaces`
+  String get hughlan_Workspaces {
+    return Intl.message(
+      'Hughlan Workspaces',
+      name: 'hughlan_Workspaces',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

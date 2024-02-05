@@ -13,7 +13,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var themeData = ThemeData.dark();
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       minTextAdapt: true,

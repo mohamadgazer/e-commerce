@@ -1,22 +1,84 @@
 import 'package:flutter/material.dart';
-import 'package:installment/core/app_images_manger.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/padding_helper.dart';
+import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/generated/l10n.dart';
 
-class PopularNow extends StatelessWidget {
+class PopularNow extends StatefulWidget {
   const PopularNow({
     super.key,
   });
 
   @override
+  State<PopularNow> createState() => _PopularNowState();
+}
+
+class _PopularNowState extends State<PopularNow> {
+  GlobalKey containerKey = GlobalKey();
+  double containerWidth = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      updateContainerWidth();
+    });
+  }
+
+  void updateContainerWidth() {
+    setState(() {
+      containerWidth = containerKey.currentContext?.size?.width ?? 0;
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           S.of(context).popular_now,
           style: AppTextStyleManger.s21BlackBlack,
         ),
-        Image.asset(AppImageManger.home_01),
+        SizedBox(height: 26.h),
+        Container(
+          key: containerKey,
+          width: double.infinity,
+          height: 192.h,
+          decoration: BoxDecoration(
+            color: AppColorManger.main,
+            borderRadius: BorderRadius.circular(PH.borderReduoc32),
+          ),
+          child: Padding(
+            padding: EdgeInsets.all(PH.all24),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  width: containerWidth / 2,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        S.of(context).home_popular,
+                        style: AppTextStyleManger.s21Blackwhite,
+                      ),
+                      Text(
+                        "data",
+                        style: AppTextStyleManger.s21Blackwhite,
+                      ),
+                      Text(
+                        "data",
+                        style: AppTextStyleManger.s21Blackwhite,
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        )
       ],
     );
   }
