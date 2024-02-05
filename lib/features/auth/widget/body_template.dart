@@ -12,8 +12,7 @@ class BodyTemplate extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding:
-            EdgeInsets.symmetric(horizontal: PH.allAppw, vertical: PH.allApph),
+        padding: EdgeInsets.symmetric(horizontal: PH.w24, vertical: PH.h40),
 
         // make scroll
         child: SingleChildScrollView(

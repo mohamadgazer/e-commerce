@@ -20,14 +20,14 @@ class SignUpBody extends StatelessWidget {
       // HEAD TEXT
       const HiText(),
       const WelcomToText(),
-      SizedBox(height: PH.sbH60),
+      SizedBox(height: PH.h60),
       // LOGIN WITH BUTTONS
       const SignUpWithButtonUi(),
       // OR TEXT
       const OrText(),
       // *** TEXT FORM FEILD  AND LOGIN BUTTON
       const SignUpInputForm(),
-      SizedBox(height: PH.sbH20),
+      SizedBox(height: PH.h20),
       // FORGET PASSWORD AND SIGNUP BUTTONS
       const BottomSignUpWidgets(),
     ]);

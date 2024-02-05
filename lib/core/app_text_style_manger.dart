@@ -12,6 +12,12 @@ class AppTextStyleManger {
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
+  static TextStyle s12Blackwhite = TextStyle(
+    fontSize: 12.sp,
+    color: AppColorManger.white,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
   //21
   static TextStyle s21BlackBlack = TextStyle(
     fontSize: 21.sp,

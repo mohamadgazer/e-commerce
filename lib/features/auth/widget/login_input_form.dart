@@ -24,7 +24,7 @@ class LoginInputForm extends StatelessWidget {
         children: [
           const EmailFormFeild(),
           SizedBox(
-            height: PH.sbH20,
+            height: PH.h20,
           ),
 
           // PASSWORD FORM FEILD
@@ -38,7 +38,7 @@ class LoginInputForm extends StatelessWidget {
             },
             color: AppColorManger.primary,
             text: S.of(context).log_In,
-            redius: PH.borderReduoc8,
+            redius: PH.br8,
           ),
         ],
       ),

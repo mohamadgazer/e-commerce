@@ -18,7 +18,7 @@ class SignUpWithButtonUi extends StatelessWidget {
           icon: AppImageManger.googleIcon,
           onTap: () {},
         ),
-        SizedBox(height: PH.sbH20),
+        SizedBox(height: PH.h20),
         HomeLoginButton(
           text: S.of(context).signup_with_facebook,
           icon: AppImageManger.facebookIcon,

@@ -23,13 +23,13 @@ class SignUpInputForm extends StatelessWidget {
         children: [
           const EmailFormFeild(),
           SizedBox(
-            height: PH.sbH20,
+            height: PH.h20,
           ),
           const PhoneFormFeild(),
           // EMAIL FORM FEILD
 
           SizedBox(
-            height: PH.sbH20,
+            height: PH.h20,
           ),
 
           // PASSWORD FORM FEILD
@@ -41,7 +41,7 @@ class SignUpInputForm extends StatelessWidget {
             onPressed: () {},
             color: AppColorManger.primary,
             text: S.of(context).sign_up,
-            redius: PH.borderReduoc8,
+            redius: PH.br8,
           ),
         ],
       ),
