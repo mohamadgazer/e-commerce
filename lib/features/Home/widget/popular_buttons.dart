@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/auth/widget/custom_material_button.dart';
+import 'package:installment/generated/l10n.dart';
 
 class PopularButtons extends StatelessWidget {
   const PopularButtons({
@@ -16,7 +17,7 @@ class PopularButtons extends StatelessWidget {
         Flexible(
           flex: 2,
           child: CustomMaterialButton(
-            text: "view Item",
+            text: S.of(context).view_Item,
             onPressed: () {},
             redius: PH.r8,
             color: AppColorManger.primary,

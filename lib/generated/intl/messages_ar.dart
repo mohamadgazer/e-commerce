@@ -39,6 +39,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "check": MessageLookupByLibrary.simpleMessage("تحقق"),
         "code_is_sent_to":
             MessageLookupByLibrary.simpleMessage("تم إرسال الكود إلى"),
+        "collection": MessageLookupByLibrary.simpleMessage("مجموعه"),
         "confirm_emil":
             MessageLookupByLibrary.simpleMessage("تأكيد البريد الإلكتروني"),
         "confirm_password":
@@ -137,6 +138,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(
                 "سلاسة في إدخال بيانات العملاء،\nوالبحث عنهم"),
+        "suggested_item": MessageLookupByLibrary.simpleMessage("قطع مقترحه"),
         "them_condication": MessageLookupByLibrary.simpleMessage(
             "بإنشائك لحساب فإنك توافق على الشروط والاحكام"),
         "verify_Email":
@@ -145,6 +147,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("التحقق من الهاتف"),
         "verify_and_Create_Account":
             MessageLookupByLibrary.simpleMessage("تحقق وانشيء الحساب"),
+        "view_Item": MessageLookupByLibrary.simpleMessage("اعرض القطعه"),
         "we_serve_you": MessageLookupByLibrary.simpleMessage(
             "نحن نقدم لك أفضل الأدوات لمساحة العمل المنزلية الخاصة بك"),
         "welcom": MessageLookupByLibrary.simpleMessage("مرحباً"),

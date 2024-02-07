@@ -19,7 +19,7 @@ class PopularContainerBody extends StatelessWidget {
     return Container(
       key: containerKey,
       width: double.infinity,
-      height: containerWidth / 1.65,
+      // height: containerWidth / 1.59,
       decoration: BoxDecoration(
         color: AppColorManger.main,
         borderRadius: BorderRadius.circular(PH.r32),

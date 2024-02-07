@@ -10,7 +10,7 @@ class NewArrivalsItemDetails extends StatelessWidget {
     required this.data,
   });
 
-  final NowArrival data;
+  final NowArrivalModel data;
 
   @override
   Widget build(BuildContext context) {

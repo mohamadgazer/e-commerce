@@ -1,15 +1,13 @@
-class NowArrivalModel {
-  final String image;
+class LaptopModel {
   final String name;
   final double price;
-  final String space;
   final double rate;
+  final String image;
 
-  NowArrivalModel({
-    required this.image,
+  LaptopModel({
     required this.name,
     required this.price,
-    required this.space,
     required this.rate,
+    required this.image,
   });
 }

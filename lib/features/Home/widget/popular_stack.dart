@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
+import 'package:installment/core/helper/aliment.dart';
 import 'package:installment/features/Home/widget/popular_now.dart';
 import 'package:installment/generated/l10n.dart';
 
@@ -12,8 +13,10 @@ class PopularStack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Alignment textDirection = alignmentHelper(context);
+
     return Stack(
-      alignment: Alignment.centerRight,
+      alignment: textDirection,
       children: [
         const PopularNow(),
         Image.asset(AppImageManger.home_01),

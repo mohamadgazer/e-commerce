@@ -59,13 +59,19 @@ class AppTextStyleManger {
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
-  //15
   static TextStyle s12BookBlack = TextStyle(
     fontSize: 12.sp,
     color: AppColorManger.black,
     fontFamily: AppFont.book,
     fontWeight: FontWeight.normal,
   );
+  static TextStyle s12Booksecondary = TextStyle(
+    fontSize: 12.sp,
+    color: AppColorManger.secondary,
+    fontFamily: AppFont.book,
+    fontWeight: FontWeight.normal,
+  );
+  //15
 
   // 16
   static TextStyle s16BookGreyLighter = TextStyle(

@@ -38,6 +38,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "check": MessageLookupByLibrary.simpleMessage("check"),
         "code_is_sent_to":
             MessageLookupByLibrary.simpleMessage("Code is sent to"),
+        "collection": MessageLookupByLibrary.simpleMessage("Collection"),
         "confirm_emil":
             MessageLookupByLibrary.simpleMessage("Confirm your Email"),
         "confirm_password":
@@ -138,6 +139,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(
                 "Smooth customer data entry and search"),
+        "suggested_item":
+            MessageLookupByLibrary.simpleMessage("suggested item"),
         "them_condication": MessageLookupByLibrary.simpleMessage(
             "By creating an account you have\n to agree with our them & condication."),
         "verify_Email":
@@ -145,6 +148,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verify_Phone": MessageLookupByLibrary.simpleMessage("Verify Phone"),
         "verify_and_Create_Account":
             MessageLookupByLibrary.simpleMessage("Verify and Create Account"),
+        "view_Item": MessageLookupByLibrary.simpleMessage("view Item"),
         "we_serve_you": MessageLookupByLibrary.simpleMessage(
             "We serve you with the best gadgets for your home workspace "),
         "welcom": MessageLookupByLibrary.simpleMessage("Welcome"),

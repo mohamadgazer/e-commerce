@@ -8,7 +8,7 @@ import 'new_arrivals_item_details.dart';
 import 'new_arrivals_item_image.dart';
 
 class NewArrivalsItem extends StatelessWidget {
-  final NowArrival data;
+  final NowArrivalModel data;
   const NewArrivalsItem({
     super.key,
     required this.data,
@@ -37,13 +37,7 @@ class NewArrivalsItem extends StatelessWidget {
               alignment: Alignment.topRight,
               children: [
                 NewArrivalsItemImage(data: data),
-                CircleAvatar(
-                  backgroundColor: AppColorManger.white,
-                  child: Icon(
-                    FontAwesomeIcons.heart,
-                    color: AppColorManger.primary,
-                  ),
-                )
+                const CustomFavoritWidget()
               ],
             ),
             SizedBox(
@@ -52,6 +46,23 @@ class NewArrivalsItem extends StatelessWidget {
             NewArrivalsItemDetails(data: data),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class CustomFavoritWidget extends StatelessWidget {
+  const CustomFavoritWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return CircleAvatar(
+      backgroundColor: AppColorManger.white,
+      child: Icon(
+        FontAwesomeIcons.heart,
+        color: AppColorManger.primary,
       ),
     );
   }

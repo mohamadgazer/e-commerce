@@ -1,36 +1,38 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
+import 'package:installment/features/Home/models/colection_model.dart';
+import 'package:installment/features/Home/models/laptop.dart';
 import 'package:installment/features/Home/models/nowArrival.dart';
 import 'package:installment/features/Home/models/workspaces.dart';
 import 'package:installment/generated/l10n.dart';
 
-List<WorkSpaces> workSpacesData(BuildContext context) {
-  List<WorkSpaces> workSpacesData = [
-    WorkSpaces(
+List<WorkSpacesModel> workSpacesData(BuildContext context) {
+  List<WorkSpacesModel> workSpacesData = [
+    WorkSpacesModel(
       image: AppImageManger.homeW01,
       workSpace: S.of(context).developer,
       suggestedItem: 25,
       price: 300,
     ),
-    WorkSpaces(
+    WorkSpacesModel(
       image: AppImageManger.homeW02,
       workSpace: S.of(context).photographer,
       suggestedItem: 74,
       price: 330,
     ),
-    WorkSpaces(
+    WorkSpacesModel(
       image: AppImageManger.homeW03,
       workSpace: S.of(context).creative,
       suggestedItem: 61,
       price: 700,
     ),
-    WorkSpaces(
+    WorkSpacesModel(
       image: AppImageManger.homeW04,
       workSpace: S.of(context).marketer,
       suggestedItem: 33,
       price: 300,
     ),
-    WorkSpaces(
+    WorkSpacesModel(
       image: AppImageManger.homeW05,
       workSpace: S.of(context).youtuber,
       suggestedItem: 40,
@@ -41,30 +43,30 @@ List<WorkSpaces> workSpacesData(BuildContext context) {
   return workSpacesData;
 }
 
-List<NowArrival> nowArrivalsData(BuildContext context) {
-  List<NowArrival> nowArrivalsData = [
-    NowArrival(
+List<NowArrivalModel> nowArrivalsData(BuildContext context) {
+  List<NowArrivalModel> nowArrivalsData = [
+    NowArrivalModel(
       image: AppImageManger.na01,
       name: "Smart Apple Watch SE",
       price: 429.0,
       space: "jodde Electronics",
       rate: 4.8,
     ),
-    NowArrival(
+    NowArrivalModel(
       image: AppImageManger.na02,
       name: "Hp Laptop - 10th generation",
       price: 850.00,
       space: "Maddy Workspaces",
       rate: 4.6,
     ),
-    NowArrival(
+    NowArrivalModel(
       image: AppImageManger.na03,
       name: "Logitech G433 Headset",
       price: 91.00,
       space: "Zone Electroncs",
       rate: 4.2,
     ),
-    NowArrival(
+    NowArrivalModel(
       image: AppImageManger.na04,
       name: "Wooden Monitor Stand",
       price: 113.00,
@@ -74,4 +76,62 @@ List<NowArrival> nowArrivalsData(BuildContext context) {
   ];
 
   return nowArrivalsData;
+}
+
+List<LaptopModel> laptopData(BuildContext context) {
+  List<LaptopModel> laptopData = [
+    LaptopModel(
+      name: "Apple MacBook Pro 16 inch",
+      price: 1500.00,
+      rate: 4.3,
+      image: AppImageManger.lt01,
+    ),
+    LaptopModel(
+      name: "Microsoft Surface Laptop 4",
+      price: 2550.00,
+      rate: 4.7,
+      image: AppImageManger.lt02,
+    ),
+    LaptopModel(
+      name: "HP Laptop 8th Gen Core i3",
+      price: 3000.00,
+      rate: 4.5,
+      image: AppImageManger.lt03,
+    ),
+    LaptopModel(
+      name: "Dell Inspiron 3583 Core I5",
+      price: 6000.00,
+      rate: 4.9,
+      image: AppImageManger.lt04,
+    ),
+  ];
+
+  return laptopData;
+}
+
+List<CollectionModel> collectionModelData(BuildContext context) {
+  List<CollectionModel> collectionModelData = [
+    CollectionModel(
+      name: "Smart Watch",
+      image: AppImageManger.nc01,
+    ),
+    CollectionModel(
+      name: "Headsets",
+      image: AppImageManger.nc02,
+    ),
+    CollectionModel(
+      name: "Ergonomic Chair",
+      image: AppImageManger.nc03,
+    ),
+    CollectionModel(
+      name: "Apple iPads",
+      image: AppImageManger.nc04,
+    ),
+    CollectionModel(
+      name: "Desk Lamps",
+      image: AppImageManger.nc05,
+    ),
+  ];
+
+  return collectionModelData;
 }

@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/workspaces.dart';
+import 'package:installment/generated/l10n.dart';
 
 class WorkSpacesItem extends StatelessWidget {
-  final WorkSpaces data;
+  final WorkSpacesModel data;
   const WorkSpacesItem({
     super.key,
     required this.data,
@@ -37,7 +38,7 @@ class WorkSpacesItem extends StatelessWidget {
             SizedBox(
               height: PH.h10,
             ),
-            Text("${data.suggestedItem} suggested item"),
+            Text("${data.suggestedItem} ${S.of(context).suggested_item}"),
           ],
         ),
       ),

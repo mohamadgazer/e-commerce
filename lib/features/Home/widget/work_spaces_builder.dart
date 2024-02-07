@@ -11,7 +11,7 @@ class WorkSpacesBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<WorkSpaces> list = workSpacesData(context);
+    List<WorkSpacesModel> list = workSpacesData(context);
     return SingleChildScrollView(
       physics: const BouncingScrollPhysics(),
       scrollDirection: Axis.horizontal,

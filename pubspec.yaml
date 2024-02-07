@@ -28,6 +28,8 @@ flutter:
     - assets/images/logo.png
     - assets/images/
     - assets/images/NA/
+    - assets/images/NC/
+    - assets/images/laptop/
     - assets/images/onboarding/
     - assets/icons/
     

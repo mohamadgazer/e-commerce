@@ -921,6 +921,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Collection`
+  String get collection {
+    return Intl.message(
+      'Collection',
+      name: 'collection',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `suggested item`
+  String get suggested_item {
+    return Intl.message(
+      'suggested item',
+      name: 'suggested_item',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `view Item`
+  String get view_Item {
+    return Intl.message(
+      'view Item',
+      name: 'view_Item',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
