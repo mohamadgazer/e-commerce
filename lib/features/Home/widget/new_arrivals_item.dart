@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
-import 'package:installment/features/Home/models/now_Arrival.dart';
+import 'package:installment/features/Home/models/now_arrival.dart';
 
 import 'new_arrivals_item_details.dart';
 import 'new_arrivals_item_image.dart';

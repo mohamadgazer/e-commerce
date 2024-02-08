@@ -40,7 +40,7 @@ class WorkSpacesItem extends StatelessWidget {
               height: PH.h10,
             ),
             Text(
-                "${convertToArabicNumber(number: data.suggestedItem.toString(), context: context)} ${S.of(context).suggested_item}"),
+                "${convertToArabicNumber(number: data.suggestedItem, context: context)} ${S.of(context).suggested_item}"),
           ],
         ),
       ),
