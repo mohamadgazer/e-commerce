@@ -46,7 +46,7 @@ class CollectionItem extends StatelessWidget {
             Text(data.name),
             SizedBox(height: PH.h4),
             Text(
-              S.of(context).se,
+              S.of(context).see_Collection,
               style: AppTextStyleManger.s12Booksecondary,
             ),
             SizedBox(height: PH.h20),
