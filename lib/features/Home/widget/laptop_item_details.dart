@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/helper/aliment.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/laptop.dart';
@@ -27,13 +28,22 @@ class LaptopItemDetails extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(5),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          // crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(data.name),
             SizedBox(height: PH.h4),
-            Text(
-              "USD ${data.price}",
-              style: AppTextStyleManger.s12Booksecondary,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text(
+                  "${converCurrencyToArabic(currency: "LE", context: context)} ",
+                  style: AppTextStyleManger.s12Booksecondary,
+                ),
+                Text(
+                  convertToArabicNumber(number: data.price, context: context),
+                  style: AppTextStyleManger.s12Booksecondary,
+                ),
+              ],
             ),
             SizedBox(height: PH.h4),
             LaptopCustomRate(data: data),

@@ -40,7 +40,7 @@ class LaptopItem extends StatelessWidget {
                   child: const CustomFavoritWidget(),
                 ),
                 Positioned(
-                  top: 80,
+                  top: 75,
                   left: 0,
                   bottom: -15,
                   width: 135,

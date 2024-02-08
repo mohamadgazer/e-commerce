@@ -3,6 +3,7 @@ import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/colection_model.dart';
+import 'package:installment/generated/l10n.dart';
 
 class CollectionItem extends StatelessWidget {
   final CollectionModel data;
@@ -45,7 +46,7 @@ class CollectionItem extends StatelessWidget {
             Text(data.name),
             SizedBox(height: PH.h4),
             Text(
-              "See Collection",
+              S.of(context).se,
               style: AppTextStyleManger.s12Booksecondary,
             ),
             SizedBox(height: PH.h20),

@@ -55,9 +55,32 @@ String convertToArabicNumber(
   } else {
     final latins = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     for (var element in numberString.characters) {
-      res += latins[int.parse(element)];
+      if (element == '.') {
+        res += '.';
+      } else {
+        res += latins[int.parse(element)];
+      }
     }
   }
 
   return res;
+}
+
+// ========================================
+// currency
+
+Map<String, String> currencyMap = {
+  "usd": "دولار",
+  "LE": "جنية",
+};
+
+String converCurrencyToArabic(
+    {required String currency, required BuildContext context}) {
+  Locale currentLocale = Localizations.localeOf(context);
+  if (currentLocale.languageCode == 'ar') {
+    print("object");
+    return currencyMap[currency]!;
+  } else {
+    return currency;
+  }
 }
