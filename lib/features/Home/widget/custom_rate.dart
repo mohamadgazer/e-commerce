@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_text_style_manger.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/Home/models/nowArrival.dart';
+import 'package:installment/features/Home/models/now_Arrival.dart';
 
 class CustomRate extends StatelessWidget {
   const CustomRate({

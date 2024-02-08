@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/helper/aliment.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/workspaces.dart';
@@ -38,7 +39,8 @@ class WorkSpacesItem extends StatelessWidget {
             SizedBox(
               height: PH.h10,
             ),
-            Text("${data.suggestedItem} ${S.of(context).suggested_item}"),
+            Text(
+                "${convertToArabicNumber(number: data.suggestedItem.toString(), context: context)} ${S.of(context).suggested_item}"),
           ],
         ),
       ),

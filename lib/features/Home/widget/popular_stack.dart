@@ -13,10 +13,9 @@ class PopularStack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Alignment textDirection = alignmentHelper(context);
-
     return Stack(
-      alignment: textDirection,
+      // alignment: Alignment.bottomRight,
+      alignment: alignmentHelper(context),
       children: [
         const PopularNow(),
         Image.asset(AppImageManger.home_01),

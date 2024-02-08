@@ -21,7 +21,7 @@ class OnBoardingBody extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage(AppImageManger.onboarding_image),
+            image: AssetImage(AppImageManger.onboardingImage),
           ),
         ),
         child: SafeArea(

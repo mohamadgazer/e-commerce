@@ -7,20 +7,22 @@ environment:
   sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
-  flutter_localizations:
-    sdk: flutter
   flutter:
     sdk: flutter
-  flutter_screenutil: ^5.9.0
+  flutter_localizations:
+    sdk: flutter
   flutter_native_splash: ^2.3.7
+  flutter_screenutil: ^5.9.0
   fluttersax: ^0.0.6
-  iconsax: ^0.0.8
   font_awesome_flutter: ^10.7.0
+  iconsax: ^0.0.8
+  intl: ^0.18.1
+  intl_utils: ^2.8.7
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -32,34 +34,30 @@ flutter:
     - assets/images/laptop/
     - assets/images/onboarding/
     - assets/icons/
-    
-    
+
   fonts:
-   - family: Rubik
-     fonts:
-       - asset: assets/fonts/Rubik/Rubik-Black.ttf
-       - asset: assets/fonts/Rubik/Rubik-BlackItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-Bold.ttf
-       - asset: assets/fonts/Rubik/Rubik-BoldItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
-       - asset: assets/fonts/Rubik/Rubik-ExtraBoldItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-Italic.ttf
-       - asset: assets/fonts/Rubik/Rubik-Light.ttf
-       - asset: assets/fonts/Rubik/Rubik-LightItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-Medium.ttf
-       - asset: assets/fonts/Rubik/Rubik-MediumItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-Regular.ttf
-       - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
-       - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
-       - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
-   - family: AvenirLTStd
-     fonts:
-       - asset: assets/fonts/avenir_ff/AvenirLTStd-Black.otf
-       - asset: assets/fonts/avenir_ff/AvenirLTStd-Book.otf
-       - asset: assets/fonts/avenir_ff/AvenirLTStd-Roman.otf
-
-
-    
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik/Rubik-Black.ttf
+        - asset: assets/fonts/Rubik/Rubik-BlackItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-Bold.ttf
+        - asset: assets/fonts/Rubik/Rubik-BoldItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
+        - asset: assets/fonts/Rubik/Rubik-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-Italic.ttf
+        - asset: assets/fonts/Rubik/Rubik-Light.ttf
+        - asset: assets/fonts/Rubik/Rubik-LightItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-Medium.ttf
+        - asset: assets/fonts/Rubik/Rubik-MediumItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
+        - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
+        - asset: assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf
+    - family: AvenirLTStd
+      fonts:
+        - asset: assets/fonts/avenir_ff/AvenirLTStd-Black.otf
+        - asset: assets/fonts/avenir_ff/AvenirLTStd-Book.otf
+        - asset: assets/fonts/avenir_ff/AvenirLTStd-Roman.otf
 
 flutter_intl:
   enabled: true

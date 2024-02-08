@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
-import 'package:installment/features/Home/models/nowArrival.dart';
+import 'package:installment/features/Home/models/now_Arrival.dart';
 
 class NewArrivalsItemImage extends StatelessWidget {
   const NewArrivalsItemImage({

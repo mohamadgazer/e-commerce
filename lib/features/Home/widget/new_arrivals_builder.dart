@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/features/Home/data/loacl_data.dart';
-import 'package:installment/features/Home/models/nowArrival.dart';
+import 'package:installment/features/Home/models/now_Arrival.dart';
 import 'package:installment/features/Home/widget/new_arrivals_item.dart';
 
 class NewArrivalsBuilder extends StatelessWidget {

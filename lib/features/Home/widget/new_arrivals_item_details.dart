@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/helper/aliment.dart';
 import 'package:installment/core/padding_helper.dart';
-import 'package:installment/features/Home/models/nowArrival.dart';
+import 'package:installment/features/Home/models/now_Arrival.dart';
 import 'package:installment/features/Home/widget/custom_rate.dart';
 
 class NewArrivalsItemDetails extends StatelessWidget {
@@ -23,7 +24,7 @@ class NewArrivalsItemDetails extends StatelessWidget {
         CustomRate(data: data),
         SizedBox(height: PH.h12),
         Text(
-          "\$${data.price}",
+          "\$${convertToArabicNumber(number: data.price.toString(), context: context)}",
           style: AppTextStyleManger.s16Booksecondary,
         ),
       ],
