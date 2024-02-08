@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "add_date": MessageLookupByLibrary.simpleMessage("Date added"),
         "add_debtor": MessageLookupByLibrary.simpleMessage("Add debtor"),
         "address": MessageLookupByLibrary.simpleMessage("address"),
+        "apple_iPads": MessageLookupByLibrary.simpleMessage("Apple iPads"),
         "browse_Shop": MessageLookupByLibrary.simpleMessage("Browse Shop"),
         "cant_be_Empty":
             MessageLookupByLibrary.simpleMessage("can\'t be Empty"),
@@ -57,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "debtor_id": MessageLookupByLibrary.simpleMessage("debtor id"),
         "debtor_list": MessageLookupByLibrary.simpleMessage("adbtor List"),
         "debtor_name": MessageLookupByLibrary.simpleMessage("debtor name"),
+        "desk_Lamps": MessageLookupByLibrary.simpleMessage("Desk Lamps"),
         "developer": MessageLookupByLibrary.simpleMessage("Developer"),
         "done": MessageLookupByLibrary.simpleMessage("Done"),
         "dont_have_an_account":
@@ -67,6 +69,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "enter_Your_Phone_Number":
             MessageLookupByLibrary.simpleMessage("Enter Your Phone Number"),
         "enter_email": MessageLookupByLibrary.simpleMessage("Enter Email"),
+        "ergonomic_Chair":
+            MessageLookupByLibrary.simpleMessage("Ergonomic Chair"),
         "esayCollectmony":
             MessageLookupByLibrary.simpleMessage("Ease of collecting money"),
         "forget_password":
@@ -77,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "hI_FELLA": MessageLookupByLibrary.simpleMessage("HI FELLA"),
         "have_an_account":
             MessageLookupByLibrary.simpleMessage("Already have an account？"),
+        "headsets": MessageLookupByLibrary.simpleMessage("Headsets"),
         "hi": MessageLookupByLibrary.simpleMessage("hi rhe"),
         "home_page": MessageLookupByLibrary.simpleMessage("Home Page"),
         "home_popular":
@@ -138,6 +143,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("Sign Up with Google"),
         "skip_button": MessageLookupByLibrary.simpleMessage("skip"),
+        "smart_Watch": MessageLookupByLibrary.simpleMessage("Smart Watch"),
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(
                 "Smooth customer data entry and search"),

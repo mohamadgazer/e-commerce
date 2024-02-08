@@ -112,23 +112,23 @@ List<LaptopModel> laptopData(BuildContext context) {
 List<CollectionModel> collectionModelData(BuildContext context) {
   List<CollectionModel> collectionModelData = [
     CollectionModel(
-      name: "Smart Watch",
+      name: S.of(context).smart_Watch,
       image: AppImageManger.nc01,
     ),
     CollectionModel(
-      name: "Headsets",
+      name: S.of(context).headsets,
       image: AppImageManger.nc02,
     ),
     CollectionModel(
-      name: "Ergonomic Chair",
+      name: S.of(context).ergonomic_Chair,
       image: AppImageManger.nc03,
     ),
     CollectionModel(
-      name: "Apple iPads",
+      name: S.of(context).apple_iPads,
       image: AppImageManger.nc04,
     ),
     CollectionModel(
-      name: "Desk Lamps",
+      name: S.of(context).desk_Lamps,
       image: AppImageManger.nc05,
     ),
   ];

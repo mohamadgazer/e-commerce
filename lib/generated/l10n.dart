@@ -961,6 +961,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Smart Watch`
+  String get smart_Watch {
+    return Intl.message(
+      'Smart Watch',
+      name: 'smart_Watch',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Headsets`
+  String get headsets {
+    return Intl.message(
+      'Headsets',
+      name: 'headsets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ergonomic Chair`
+  String get ergonomic_Chair {
+    return Intl.message(
+      'Ergonomic Chair',
+      name: 'ergonomic_Chair',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apple iPads`
+  String get apple_iPads {
+    return Intl.message(
+      'Apple iPads',
+      name: 'apple_iPads',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Desk Lamps`
+  String get desk_Lamps {
+    return Intl.message(
+      'Desk Lamps',
+      name: 'desk_Lamps',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

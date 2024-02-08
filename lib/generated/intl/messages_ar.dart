@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "add_date": MessageLookupByLibrary.simpleMessage("تاريخ الإضافة"),
         "add_debtor": MessageLookupByLibrary.simpleMessage("إضافة مدين"),
         "address": MessageLookupByLibrary.simpleMessage("العنوان"),
+        "apple_iPads": MessageLookupByLibrary.simpleMessage("ابل ايبود"),
         "browse_Shop": MessageLookupByLibrary.simpleMessage("تصفح المتجر"),
         "cant_be_Empty":
             MessageLookupByLibrary.simpleMessage("لا يجب ان يكون الحقل فارغاً"),
@@ -57,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "debtor_id": MessageLookupByLibrary.simpleMessage("كود المدين"),
         "debtor_list": MessageLookupByLibrary.simpleMessage("قائمة المدينين"),
         "debtor_name": MessageLookupByLibrary.simpleMessage("اسم المدين"),
+        "desk_Lamps": MessageLookupByLibrary.simpleMessage("مصابيح مكتبية"),
         "developer": MessageLookupByLibrary.simpleMessage("مبرمج"),
         "done": MessageLookupByLibrary.simpleMessage("تم"),
         "dont_have_an_account":
@@ -68,6 +70,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ادخل رقم هاتفك"),
         "enter_email":
             MessageLookupByLibrary.simpleMessage("ادخل البريد الإلكتروني"),
+        "ergonomic_Chair": MessageLookupByLibrary.simpleMessage("كراسي مريحة"),
         "esayCollectmony":
             MessageLookupByLibrary.simpleMessage("سهوله تحصيل الاموال"),
         "forget_password":
@@ -78,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "hI_FELLA": MessageLookupByLibrary.simpleMessage("اهلا صديقي"),
         "have_an_account":
             MessageLookupByLibrary.simpleMessage(" تمتلك حساباً بالفعل؟"),
+        "headsets": MessageLookupByLibrary.simpleMessage("سماعات الرأس"),
         "hi": MessageLookupByLibrary.simpleMessage("هلا"),
         "home_page": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
         "home_popular":
@@ -136,6 +140,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signup_with_google":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب باستخدام جوجل"),
         "skip_button": MessageLookupByLibrary.simpleMessage("تجاوز"),
+        "smart_Watch": MessageLookupByLibrary.simpleMessage("الساعات الذكية"),
         "smooth_customer_data_entry_and_search":
             MessageLookupByLibrary.simpleMessage(
                 "سلاسة في إدخال بيانات العملاء،\nوالبحث عنهم"),
