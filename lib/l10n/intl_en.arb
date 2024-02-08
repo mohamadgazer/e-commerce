@@ -91,7 +91,12 @@
     "collection":"Collection",
     "suggested_item":"suggested item",
     "view_Item":"view Item",
-    "see_Collection":"See Collection"
+    "see_Collection":"See Collection",
+    "smart_Watch":"Smart Watch",
+    "headsets": "Headsets",
+    "ergonomic_Chair": "Ergonomic Chair",
+    "apple_iPads": "Apple iPads",
+    "desk_Lamps": "Desk Lamps"
 
 
 
