@@ -25,4 +25,8 @@ class AppImageManger {
   static const String nc03 = "assets/images/NC/03.png";
   static const String nc04 = "assets/images/NC/04.png";
   static const String nc05 = "assets/images/NC/05.png";
+  // View Item
+  static const String vi01 = "assets/images/VI/01.png";
+  static const String vi02 = "assets/images/VI/02.png";
+  static const String vi03 = "assets/images/VI/03.png";
 }

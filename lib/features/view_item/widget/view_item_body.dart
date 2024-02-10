@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:installment/features/Home/widget/head_line.dart';
 import 'package:installment/features/auth/widget/body_template.dart';
 
 import 'view_item_head.dart';
@@ -14,7 +13,6 @@ class ViewItemBody extends StatelessWidget {
     return const BodyTemplate(
       children: [
         ViewItemHead(),
-        HeadLine(text: "text"),
       ],
     );
   }
