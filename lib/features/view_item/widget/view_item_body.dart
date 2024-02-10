@@ -11,14 +11,19 @@ class ViewItemBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
         ViewITemTopTemplate(
           children: [
-            ViewItemHead(),
+            const ViewItemHead(),
+            PageView.builder(
+              itemBuilder: (context, index) {
+                return null;
+              },
+            )
           ],
         ),
-        BodyTemplate(
+        const BodyTemplate(
           children: [],
         ),
       ],
