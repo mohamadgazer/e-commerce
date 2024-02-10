@@ -1,23 +1,34 @@
 class ItemModel {
+  // item image
   final List<ImageItem> images;
+  // item pricing
   final double itemPrice;
   final double itemDiscountRate;
   // payment and view item price
   final double itemEndPrice;
   final double itemRate;
-  final String itemName;
-  final String itemSpace;
-  final String itemDescription;
+  //names
+  final String itemEnglish;
+  final String itemArabicName;
+  // Item specifications
+  final String itemEnglishSpace;
+  final String itemArabicSpace;
+  // item description
+  final String itemEnglishDescription;
+  final String itemArabicDescription;
 
-  ItemModel({
-    required this.images,
-    required this.itemPrice,
-    required this.itemRate,
-    this.itemDiscountRate = 0,
-    required this.itemName,
-    required this.itemSpace,
-    required this.itemDescription,
-  }) : itemEndPrice = itemDiscountRate == 0 || itemDiscountRate > 0
+  ItemModel(
+      {required this.images,
+      required this.itemPrice,
+      required this.itemDiscountRate,
+      required this.itemRate,
+      required this.itemEnglish,
+      required this.itemArabicName,
+      required this.itemEnglishSpace,
+      required this.itemArabicSpace,
+      required this.itemEnglishDescription,
+      required this.itemArabicDescription})
+      : itemEndPrice = itemDiscountRate == 0 || itemDiscountRate > 0
             ? itemPrice
             : itemPrice - (itemPrice / itemDiscountRate);
 }
