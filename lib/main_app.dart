@@ -23,7 +23,7 @@ class MainApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         localizationsDelegates: localizationsDelegates,
         supportedLocales: S.delegate.supportedLocales,
-        locale: const Locale("ar"),
+        locale: const Locale("en"),
         //route
         onGenerateRoute: appRouter.generateRoute,
         initialRoute: Routes.onBoarding,
