@@ -5,6 +5,7 @@ import 'package:installment/features/Setting/view/setting_view.dart';
 import 'package:installment/features/auth/view/login_view.dart';
 import 'package:installment/features/auth/view/signup_view.dart';
 import 'package:installment/features/onboarding/view/onboarding_view.dart';
+import 'package:installment/features/view_item/models/item_model.dart';
 import 'package:installment/features/view_item/view/view_item_view.dart';
 
 class AppRouter {
@@ -42,11 +43,12 @@ class AppRouter {
         );
 
       // view Item
+// view Item
       case Routes.viewItem:
+        final itemModel = settings.arguments as ItemModel;
         return MaterialPageRoute(
-          builder: (_) => const ViewItemView(),
+          builder: (_) => ViewItemView(itemModel: itemModel),
         );
-
       default:
         return MaterialPageRoute(
           builder: (_) {
