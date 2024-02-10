@@ -1,6 +1,6 @@
 class ItemModel {
   // item image
-  final List<ImageItem> images;
+  final List<String> images;
   // item pricing
   final double itemPrice;
   final double itemDiscountRate;
@@ -31,10 +31,4 @@ class ItemModel {
       : itemEndPrice = itemDiscountRate == 0 || itemDiscountRate > 0
             ? itemPrice
             : itemPrice - (itemPrice / itemDiscountRate);
-}
-
-class ImageItem {
-  final String image;
-
-  ImageItem({required this.image});
 }
