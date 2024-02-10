@@ -78,7 +78,6 @@ String converCurrencyToArabic(
     {required String currency, required BuildContext context}) {
   Locale currentLocale = Localizations.localeOf(context);
   if (currentLocale.languageCode == 'ar') {
-    print("object");
     return currencyMap[currency]!;
   } else {
     return currency;

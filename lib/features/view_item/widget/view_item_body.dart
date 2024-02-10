@@ -25,7 +25,7 @@ class ViewItemBody extends StatelessWidget {
         ),
         BodyTemplate(
           children: [
-            Text(itemModel.itemEnglishDescription ?? "text"),
+            Text(itemModel.itemEnglishDescription),
           ],
         ),
       ],
