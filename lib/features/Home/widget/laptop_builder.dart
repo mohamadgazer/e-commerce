@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:installment/features/Home/data/loacl_data.dart';
 import 'package:installment/features/Home/models/laptop.dart';
-import 'package:installment/features/Home/widget/laptop_item.dart';
+import 'package:installment/features/Home/widget/laptop_item_stack.dart';
 
 class LaptopBuilder extends StatelessWidget {
   const LaptopBuilder({

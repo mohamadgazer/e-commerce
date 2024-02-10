@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/helper/context_helper.dart';
 import 'package:installment/core/padding_helper.dart';
+import 'package:installment/core/routing/routers.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/auth/widget/custom_material_button.dart';
 import 'package:installment/generated/l10n.dart';
@@ -18,7 +20,9 @@ class PopularButtons extends StatelessWidget {
           flex: 2,
           child: CustomMaterialButton(
             text: S.of(context).view_Item,
-            onPressed: () {},
+            onPressed: () {
+              context.pushNamed(Routes.viewItem);
+            },
             redius: PH.r8,
             color: AppColorManger.primary,
           ),

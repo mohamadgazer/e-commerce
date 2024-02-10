@@ -19,7 +19,9 @@ class NewArrivalsItemDetails extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(data.name, style: AppTextStyleManger.s16BookBlack),
+        Text("${data.name.substring(0, 18)}...",
+            overflow: TextOverflow.ellipsis,
+            style: AppTextStyleManger.s16BookBlack),
         SizedBox(height: PH.h4),
         CustomRate(data: data),
         SizedBox(height: PH.h12),

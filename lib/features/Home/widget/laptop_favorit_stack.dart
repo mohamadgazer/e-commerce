@@ -3,17 +3,16 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/laptop.dart';
-import 'package:installment/features/Home/widget/laptop_item_details.dart';
-import 'package:installment/features/Home/widget/new_arrivals_item.dart';
+import 'package:installment/features/Home/widget/custom_favorit_widget.dart';
+import 'package:installment/features/Home/widget/laptop_item_image.dart';
 
-import 'laptop_item_image.dart';
-
-class LaptopItem extends StatelessWidget {
-  final LaptopModel data;
-  const LaptopItem({
+class LaptopFavoritStack extends StatelessWidget {
+  const LaptopFavoritStack({
     super.key,
     required this.data,
   });
+
+  final LaptopModel data;
 
   @override
   Widget build(BuildContext context) {
@@ -31,6 +30,7 @@ class LaptopItem extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Stack(
+              clipBehavior: Clip.none,
               // clipBehavior: Clip.hard,
               alignment: Alignment.topRight,
               children: [
@@ -38,15 +38,6 @@ class LaptopItem extends StatelessWidget {
                 GestureDetector(
                   onTap: () {},
                   child: const CustomFavoritWidget(),
-                ),
-                Positioned(
-                  top: 75,
-                  left: 0,
-                  bottom: -15,
-                  width: 135,
-                  // height: 150,
-                  // width: 150,
-                  child: LaptopItemDetails(data: data),
                 ),
               ],
             ),

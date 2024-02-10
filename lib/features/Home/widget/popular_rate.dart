@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/helper/aliment.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/generated/l10n.dart';
 
@@ -18,7 +19,8 @@ class PopularRate extends StatelessWidget {
         ),
         SizedBox(width: PH.h18),
         Text(
-          S.of(context).rate_48,
+          convertToArabicNumber(
+              number: double.parse(S.of(context).rate_48), context: context),
           style: AppTextStyleManger.s12Blackwhite,
         ),
         const Icon(

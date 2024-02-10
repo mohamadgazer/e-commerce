@@ -5,6 +5,7 @@ import 'package:installment/features/Setting/view/setting_view.dart';
 import 'package:installment/features/auth/view/login_view.dart';
 import 'package:installment/features/auth/view/signup_view.dart';
 import 'package:installment/features/onboarding/view/onboarding_view.dart';
+import 'package:installment/features/view_item/view/view_item_view.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
@@ -38,6 +39,12 @@ class AppRouter {
       case Routes.home:
         return MaterialPageRoute(
           builder: (_) => const HomeView(),
+        );
+
+      // view Item
+      case Routes.viewItem:
+        return MaterialPageRoute(
+          builder: (_) => const ViewItemView(),
         );
 
       default:

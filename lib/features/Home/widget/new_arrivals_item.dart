@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:installment/core/padding_helper.dart';
 import 'package:installment/core/theming/app_color.dart';
 import 'package:installment/features/Home/models/now_arrival.dart';
 
+import 'custom_favorit_widget.dart';
 import 'new_arrivals_item_details.dart';
 import 'new_arrivals_item_image.dart';
 
@@ -46,23 +46,6 @@ class NewArrivalsItem extends StatelessWidget {
             NewArrivalsItemDetails(data: data),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class CustomFavoritWidget extends StatelessWidget {
-  const CustomFavoritWidget({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return CircleAvatar(
-      backgroundColor: AppColorManger.white,
-      child: Icon(
-        FontAwesomeIcons.heart,
-        color: AppColorManger.primary,
       ),
     );
   }
