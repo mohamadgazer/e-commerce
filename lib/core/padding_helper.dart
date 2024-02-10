@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PH {
@@ -27,4 +28,9 @@ class PH {
 // reduios
   static double r8 = 8;
   static double r32 = 32.r;
+
+  // padding
+
+  EdgeInsetsGeometry mainAppPadding =
+      EdgeInsets.symmetric(horizontal: PH.w24, vertical: PH.h40);
 }
