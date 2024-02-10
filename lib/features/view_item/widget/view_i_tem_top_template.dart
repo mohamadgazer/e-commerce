@@ -14,7 +14,7 @@ class ViewITemTopTemplate extends StatelessWidget {
     return Container(
       color: AppColorManger.whiteShade,
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: PH.w24, vertical: PH.h40),
+        padding: PH.mainAppPadding,
         child: Column(
           children: children,
         ),
