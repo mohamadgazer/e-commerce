@@ -16,18 +16,21 @@ class ViewItemBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        ViewITemTopTemplate(
-          children: [
-            const ViewItemHead(),
-            ViewITemImageBuilder(itemModel: itemModel),
-          ],
-        ),
-        BodyTemplateViewItem(
-          children: [ViewItemNamePriceRateSpace(itemModel: itemModel)],
-        ),
-      ],
+    return SingleChildScrollView(
+      physics: const BouncingScrollPhysics(),
+      child: Column(
+        children: [
+          ViewITemTopTemplate(
+            children: [
+              const ViewItemHead(),
+              ViewITemImageBuilder(itemModel: itemModel),
+            ],
+          ),
+          BodyTemplateViewItem(children: [
+            ViewItemNamePriceRateSpace(itemModel: itemModel),
+          ]),
+        ],
+      ),
     );
   }
 }
