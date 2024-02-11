@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/padding_helper.dart';
 import 'package:installment/features/view_item/models/item_model.dart';
 
 import 'item_view.dart';
+import 'view_item_page_view_dots.dart';
 import 'view_item_side_image.dart';
 
 class ViewITemImageBuilder extends StatefulWidget {
@@ -63,6 +65,8 @@ class _ViewITemImageBuilderState extends State<ViewITemImageBuilder> {
             ],
           ),
         ),
+        SizedBox(height: PH.h25),
+        ViewItemPageViewDots(widget: widget, selected: selected)
       ],
     );
   }
