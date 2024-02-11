@@ -10,6 +10,7 @@ class PH {
   static double w10 = 10.w;
   static double w16 = 16.w;
   static double w24 = 24.w;
+  static double w34 = 34.w;
   static double w158 = 158.w;
 // hight
 
@@ -20,6 +21,7 @@ class PH {
   static double h25 = 25.h;
   static double h20 = 20.h;
   static double h26 = 26.h;
+  static double h34 = 34.h;
   static double h40 = 40.h;
   static double h60 = 60.h;
   static double h77 = 77.h;

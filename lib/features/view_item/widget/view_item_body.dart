@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:installment/core/app_text_style_manger.dart';
+import 'package:installment/core/padding_helper.dart';
 import 'package:installment/features/auth/widget/body_template_view_item.dart';
 import 'package:installment/features/view_item/models/item_model.dart';
 import 'package:installment/features/view_item/widget/view_item_head.dart';
@@ -28,6 +30,11 @@ class ViewItemBody extends StatelessWidget {
           ),
           BodyTemplateViewItem(children: [
             ViewItemNamePriceRateSpace(itemModel: itemModel),
+            SizedBox(height: PH.h34),
+            Text(
+              itemModel.itemEnglishDescription,
+              style: AppTextStyleManger.s16BookBlack,
+            ),
           ]),
         ],
       ),
