@@ -10,19 +10,17 @@ class BodyTemplateViewItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Padding(
-        padding: PH.mainAppPadding,
+    return Padding(
+      padding: PH.mainAppPadding,
 
-        // make scroll
-        child: SingleChildScrollView(
-          // List of Widget
+      // make scroll
+      child: SingleChildScrollView(
+        // List of Widget
 
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: children,
-          ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: children,
         ),
       ),
     );

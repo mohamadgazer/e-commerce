@@ -36,4 +36,7 @@ class PH {
 
   static EdgeInsetsGeometry mainAppPadding =
       EdgeInsets.symmetric(horizontal: PH.w24, vertical: PH.h40);
+
+  static EdgeInsetsGeometry viewITemAppPadding =
+      EdgeInsets.symmetric(horizontal: PH.w10, vertical: PH.h40);
 }
