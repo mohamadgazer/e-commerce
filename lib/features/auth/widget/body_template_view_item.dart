@@ -11,7 +11,7 @@ class BodyTemplateViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: PH.mainAppPadding,
+      padding: PH.viewItemAppPadding,
 
       // make scroll
       child: SingleChildScrollView(
