@@ -24,7 +24,7 @@ class _ViewITemImageBuilderState extends State<ViewITemImageBuilder> {
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.sizeOf(context).height;
-    var screenSizeWidth = MediaQuery.sizeOf(context).width;
+    // var screenSizeWidth = MediaQuery.sizeOf(context).width;
     return Column(
       children: [
         SizedBox(

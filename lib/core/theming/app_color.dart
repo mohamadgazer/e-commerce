@@ -20,10 +20,12 @@ class AppColorManger {
   // black
   static Color black = const Color(0xff040B14);
   // black
-  static Color customBlack1 = const Color(0xff3C3F44);
-  static Color customBlack2 = const Color(0xffECEDDE);
   static Color darkshade = const Color(0xff07120E);
   static Color main = const Color(0xff0A0B02);
   //green
   static Color greenDeep = const Color(0xff1B3D2F);
+  //custom
+  static Color custom1 = const Color(0xff3C3F44);
+  static Color custom2 = const Color(0xffECEDDE);
+  static Color custom3 = const Color(0xffF5FAF8);
 }

@@ -20,9 +20,10 @@ class ViewItemHead extends StatelessWidget {
           },
           icon: Icon(
             Icons.arrow_back_ios,
-            color: AppColorManger.customBlack1,
+            color: AppColorManger.custom1,
           ),
         ),
+        // ignore: avoid_unnecessary_containers
         Container(
           child: IconButton(
             icon: const Icon(Icons.my_library_add_outlined),

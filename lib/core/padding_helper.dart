@@ -5,6 +5,7 @@ class PH {
 //width
   static double wdot6 = 0.6.w;
   static double w1 = 1.w;
+  static double w4 = 4.w;
   static double w8 = 8.w;
   static double w10 = 10.w;
   static double w16 = 16.w;
@@ -22,6 +23,7 @@ class PH {
   static double h40 = 40.h;
   static double h60 = 60.h;
   static double h77 = 77.h;
+  static double h80 = 80.h;
   static double h190 = 190.h;
 
 // dilog

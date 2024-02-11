@@ -106,6 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("رقم هاتف غير صالح"),
         "not_valid_username":
             MessageLookupByLibrary.simpleMessage("اسم مستخدم غير صالح"),
+        "off": MessageLookupByLibrary.simpleMessage("خصم"),
         "onboadring_subtitle_title1": MessageLookupByLibrary.simpleMessage(
             "دورات مجانية لتجد طريقك للتعلم"),
         "onboadring_subtitle_title2": MessageLookupByLibrary.simpleMessage(

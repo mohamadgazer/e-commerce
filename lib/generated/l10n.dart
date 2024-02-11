@@ -1011,6 +1011,16 @@ class S {
       args: [],
     );
   }
+
+  /// `off`
+  String get off {
+    return Intl.message(
+      'off',
+      name: 'off',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

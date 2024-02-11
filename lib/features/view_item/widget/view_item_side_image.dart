@@ -43,7 +43,7 @@ class ViewItemSideImage extends StatelessWidget {
                             : Colors.transparent)),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: AppColorManger.customBlack2,
+                    color: AppColorManger.custom2,
                     border: Border.all(color: AppColorManger.white, width: 4),
                     borderRadius: BorderRadius.circular(PH.r8),
                   ),

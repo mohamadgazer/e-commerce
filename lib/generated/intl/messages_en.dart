@@ -106,6 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("not valid phone"),
         "not_valid_username":
             MessageLookupByLibrary.simpleMessage("not valid username"),
+        "off": MessageLookupByLibrary.simpleMessage("off"),
         "onboadring_subtitle_title1": MessageLookupByLibrary.simpleMessage(
             "Free courses for you to\nfind your way to learning"),
         "onboadring_subtitle_title2": MessageLookupByLibrary.simpleMessage(
