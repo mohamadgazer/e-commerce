@@ -21,7 +21,7 @@ class ViewItemPageViewDots extends StatelessWidget {
         ...List.generate(
           widget.itemModel.images.length,
           (index) => Padding(
-            padding: const EdgeInsets.all(4.0),
+            padding: const EdgeInsets.symmetric(horizontal: 4),
             child: Container(
               width: PH.w10,
               height: PH.h10,

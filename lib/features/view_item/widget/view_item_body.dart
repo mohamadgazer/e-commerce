@@ -23,9 +23,31 @@ class ViewItemBody extends StatelessWidget {
             ViewITemImageBuilder(itemModel: itemModel),
           ],
         ),
-        BodyTemplate(
+        const BodyTemplate(
           children: [
-            Text(itemModel.itemEnglishDescription),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [
+                    Text("data1"),
+                    Row(
+                      children: [
+                        Text("data"),
+                        Text("data"),
+                        Text("data"),
+                      ],
+                    ),
+                  ],
+                ),
+                Column(
+                  children: [
+                    Text("data"),
+                    Text("data"),
+                  ],
+                )
+              ],
+            )
           ],
         ),
       ],

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:installment/core/padding_helper.dart';
+import 'package:installment/features/view_item/manger/cubit/view_item_cubit.dart';
 import 'package:installment/features/view_item/models/item_model.dart';
 
 import 'item_view.dart';
@@ -20,14 +22,6 @@ class ViewITemImageBuilder extends StatefulWidget {
 
 class _ViewITemImageBuilderState extends State<ViewITemImageBuilder> {
   @override
-  int selected = 1;
-  final PageController? controller = PageController(initialPage: 0);
-  @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.sizeOf(context).height;
     var screenSizeWidth = MediaQuery.sizeOf(context).width;
@@ -43,10 +37,13 @@ class _ViewITemImageBuilderState extends State<ViewITemImageBuilder> {
                   // width: screenSizeWidth / 2,
                   height: screenSize / 2.07,
                   child: PageView.builder(
-                    controller: controller,
+                    controller:
+                        BlocProvider.of<ViewItemCubit>(context).controller,
                     onPageChanged: (value) {
-                      selected = value;
-                      print(selected);
+                      // BlocProvider.of<ViewItemCubit>(context).selected = value;
+                      BlocProvider.of<ViewItemCubit>(context)
+                          .updateSelected(value);
+
                       setState(() {});
                     },
                     physics: const BouncingScrollPhysics(),
@@ -59,14 +56,17 @@ class _ViewITemImageBuilderState extends State<ViewITemImageBuilder> {
               ),
               ViewItemSideImage(
                 widget: widget,
-                controller: controller,
-                selected: selected,
+                controller: BlocProvider.of<ViewItemCubit>(context).controller,
+                selected: BlocProvider.of<ViewItemCubit>(context).selected,
               ),
             ],
           ),
         ),
         SizedBox(height: PH.h25),
-        ViewItemPageViewDots(widget: widget, selected: selected)
+        ViewItemPageViewDots(
+          widget: widget,
+          selected: BlocProvider.of<ViewItemCubit>(context).selected,
+        ),
       ],
     );
   }
