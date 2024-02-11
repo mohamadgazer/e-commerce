@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:installment/features/auth/widget/body_template.dart';
+import 'package:installment/features/auth/widget/body_template_view_item.dart';
 import 'package:installment/features/view_item/models/item_model.dart';
 import 'package:installment/features/view_item/widget/view_item_head.dart';
 
@@ -24,7 +24,7 @@ class ViewItemBody extends StatelessWidget {
             ViewITemImageBuilder(itemModel: itemModel),
           ],
         ),
-        BodyTemplate(
+        BodyTemplateViewItem(
           children: [ViewItemNamePriceRateSpace(itemModel: itemModel)],
         ),
       ],
