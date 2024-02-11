@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PH {
 //width
+  static double wdot6 = 0.6.w;
   static double w1 = 1.w;
   static double w8 = 8.w;
   static double w10 = 10.w;

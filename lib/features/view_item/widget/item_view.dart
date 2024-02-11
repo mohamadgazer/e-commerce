@@ -12,7 +12,7 @@ class ItemView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Image.asset(
       image,
-      fit: BoxFit.fitHeight,
+      fit: BoxFit.contain,
     );
   }
 }
