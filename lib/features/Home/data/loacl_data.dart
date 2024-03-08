@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:installment/core/app_images_manger.dart';
 import 'package:installment/features/Home/models/colection_model.dart';
 import 'package:installment/features/Home/models/laptop.dart';
-import 'package:installment/features/Home/models/now_arrival.dart';
+import 'package:installment/features/Home/models/now_Arrival.dart';
 import 'package:installment/features/Home/models/workspaces.dart';
 import 'package:installment/generated/l10n.dart';
 
